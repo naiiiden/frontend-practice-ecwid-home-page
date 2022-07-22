@@ -1,1 +1,0 @@
-# frontend-practice-ecwid-home-page
