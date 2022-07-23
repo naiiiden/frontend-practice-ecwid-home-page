@@ -28,8 +28,8 @@ const Header = () => {
                         <span>Partners</span>
                     </li>
                     <li><a href="#" className="link">Pricing</a></li>
-                    <li><a href="#" className="get--started--link link">Get started for FREE</a></li>
-                    <li><a href="#" className="login--link link">Login</a></li>
+                    <li className="get--started--li"><a href="#" className="get--started--link link">Get started for FREE</a></li>
+                    <li className="login--li"><a href="#" className="login--link link">Login</a></li>
                 </ul>
             </nav>
         </header>

@@ -82,8 +82,53 @@ header {
                 opacity: 1;
                 visibility: visible;
                 left: 0;
-                border: 1px solid red;
                 transition: .2s, left .3s;
+            }
+
+            li {
+                padding: .5rem 0;
+
+                span {
+                    display: inline-block;
+                    position: relative;
+                    font-weight: 600;
+                    width: 100%;
+
+                    &::after {
+                        content: '›';
+                        position: absolute;
+                        right: 0;
+                        font-size: 26px;
+                        top: -10px;
+                    }
+                }
+
+                a {
+                    font-weight: 600;
+                    text-decoration: none;
+                    color: #0a0c0f;
+                }
+
+                &.get--started--li, &.login--li {
+                    text-align: center;
+
+                    &.get--started--li {
+                        margin-top: 3rem;
+                        font-size: 1.125rem;
+                        line-height: 1.5rem;
+                        
+                        a {
+                            display: inline-block;
+                            padding: 14px 0 13px 0;
+                            width: 100%;
+                            font-weight: 700;
+                            background: #000;
+                            border: 2px solid #000;
+                            border-radius: 6px;
+                            color: #fff;
+                        }
+                    }
+                }
             }
         }
     }
