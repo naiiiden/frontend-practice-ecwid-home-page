@@ -18,8 +18,8 @@ const Header = () => {
             </button>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
-                    <li onClick={() => setOpenSell(!openSell)}>
-                        <span>Sell</span>
+                    <li>
+                        <span onClick={() => setOpenSell(!openSell)}>Sell</span>
                         <ul className={`dropdown ${openSell ? "show" : ""}`}>
                             <li><a href="#">Sell anywhere</a></li>
                             <li><a href="#">Website</a></li>
@@ -32,18 +32,18 @@ const Header = () => {
                             <li><a href="#">ShopApp</a></li>
                         </ul>
                     </li>
-                    <li onClick={() => setOpenMarket(!openMarket)}>
-                        <span>Market</span>
+                    <li>
+                        <span onClick={() => setOpenMarket(!openMarket)}>Market</span>
                         <ul className={`dropdown ${openMarket ? "show" : ""}`}>
                             <li><a href="#">Market your business</a></li>
                             <li><a href="#">Google Ads</a></li>
                             <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Emai.</a></li>
+                            <li><a href="#">Email</a></li>
 
                         </ul>
                     </li>
-                    <li onClick={() => setOpenManage(!openManage)}>
-                        <span>Manage</span>
+                    <li>
+                        <span onClick={() => setOpenManage(!openManage)}>Manage</span>
                         <ul className={`dropdown ${openManage ? "show" : ""}`}>
                             <li><a href="#">Manage your store</a></li>
                             <li><a href="#">Mobile</a></li>
@@ -51,8 +51,8 @@ const Header = () => {
                             <li><a href="#">Discount Shipping</a></li>
                         </ul>
                     </li>
-                    <li onClick={() => setOpenLearn(!openLearn)}>
-                        <span>Learn</span>
+                    <li>
+                        <span onClick={() => setOpenLearn(!openLearn)}>Learn</span>
                         <ul className={`dropdown ${openLearn ? "show" : ""}`}>
                             <li><a href="#">Learn</a></li>
                             <li><a href="#">Demo</a></li>
@@ -65,8 +65,8 @@ const Header = () => {
                             <li><a href="#">Tutorials</a></li>
                         </ul>
                     </li>
-                    <li onClick={() => setOpenPartners(!openPartners)}>
-                        <span>Partners</span>
+                    <li>
+                        <span onClick={() => setOpenPartners(!openPartners)}>Partners</span>
                         <ul className={`dropdown ${openPartners ? "show" : ""}`}>
                             <li><a href="#">Partners <WindowIcon className="window--icon"/></a></li>
                             <li><a href="#">Resell <WindowIcon className="window--icon"/></a></li>
