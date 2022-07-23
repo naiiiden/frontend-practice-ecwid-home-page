@@ -1,5 +1,6 @@
 import { useState } from "react";
 import header_logo from "../images/logo/logo-light.svg"; 
+import { ReactComponent as WindowIcon } from "../images/icons/new-window.svg";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -14,18 +15,60 @@ const Header = () => {
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li>
                         <span>Sell</span>
+                        <ul className={`dropdown`}>
+                            <li><a href="#">Sell anywhere</a></li>
+                            <li><a href="#">Website</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">TikTok</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Google</a></li>
+                            <li><a href="#">Amazon</a></li>
+                            <li><a href="#">POS</a></li>
+                            <li><a href="#">ShopApp</a></li>
+                        </ul>
                     </li>
                     <li>
                         <span>Market</span>
+                        <ul className={`dropdown`}>
+                            <li><a href="#">Market your business</a></li>
+                            <li><a href="#">Google Ads</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Emai.</a></li>
+
+                        </ul>
                     </li>
                     <li>
                         <span>Manage</span>
+                        <ul className={`dropdown`}>
+                            <li><a href="#">Manage your store</a></li>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">App Market</a></li>
+                            <li><a href="#">Discount Shipping</a></li>
+                        </ul>
                     </li>
                     <li>
                         <span>Learn</span>
+                        <ul className={`dropdown`}>
+                            <li><a href="#">Learn</a></li>
+                            <li><a href="#">Demo</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Customer Support</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Ecwid Academy</a></li>
+                            <li><a href="#">Podcast</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                        </ul>
                     </li>
                     <li>
                         <span>Partners</span>
+                        <ul className={`dropdown`}>
+                            <li><a href="#">Partners <WindowIcon className="window--icon"/></a></li>
+                            <li><a href="#">Resell <WindowIcon className="window--icon"/></a></li>
+                            <li><a href="#">Refer <WindowIcon className="window--icon"/></a></li>
+                            <li><a href="#">Build an App <WindowIcon className="window--icon"/></a></li>
+                            <li><a href="#">Find an expert <WindowIcon className="window--icon"/></a></li>
+                        </ul>
                     </li>
                     <li><a href="#" className="link">Pricing</a></li>
                     <li className="get--started--li"><a href="#" className="get--started--link link">Get started for FREE</a></li>
