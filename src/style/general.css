@@ -177,12 +177,16 @@ header .header--nav .header--nav--ul li a {
   color: #0a0c0f;
 }
 
+header .header--nav .header--nav--ul li .pricing--link {
+  padding-left: 1.25rem;
+}
+
 header .header--nav .header--nav--ul li.get--started--li, header .header--nav .header--nav--ul li.login--li {
   text-align: center;
 }
 
 header .header--nav .header--nav--ul li.get--started--li.get--started--li, header .header--nav .header--nav--ul li.login--li.get--started--li {
-  margin-top: 3rem;
+  margin: 3rem 1.25rem 1rem 1.25rem;
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
@@ -208,6 +212,7 @@ header .header--nav .header--nav--ul .dropdown {
   overflow: hidden;
   -webkit-transition: .3s, max-height .3s, opacity .2s;
   transition: .3s, max-height .3s, opacity .2s;
+  visibility: hidden;
 }
 
 header .header--nav .header--nav--ul .dropdown li {
@@ -227,5 +232,21 @@ header .header--nav .header--nav--ul .dropdown.show {
   max-height: 500px;
   -webkit-transition: .3s, max-height .3s, opacity .6s;
   transition: .3s, max-height .3s, opacity .6s;
+  visibility: visible;
+}
+
+header .header--nav .header--nav--ul .dropdown a {
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header--nav .header--nav--ul .dropdown a .window--icon {
+  stroke: #9c9c9c;
+  margin-left: 8px;
 }
 /*# sourceMappingURL=general.css.map */
