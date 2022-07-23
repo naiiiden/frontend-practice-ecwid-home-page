@@ -178,14 +178,14 @@ header .header--nav .header--nav--ul li.get--started--li.get--started--li a, hea
 
 header .header--nav .header--nav--ul .dropdown {
   list-style-type: none;
-  border: 1px solid red;
-  padding-left: 2rem;
+  padding: .5rem 0 .5rem 2rem;
   position: relative;
-  left: 0;
+  left: -10rem;
+  opacity: 0;
   max-height: 0;
   overflow: hidden;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .3s, max-height .3s, opacity .2s;
+  transition: .3s, max-height .3s, opacity .2s;
 }
 
 header .header--nav .header--nav--ul .dropdown.show {
@@ -196,9 +196,10 @@ header .header--nav .header--nav--ul .dropdown.show {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-height: 500px;
   left: 0;
-  -webkit-transition: .4s;
-  transition: .4s;
+  opacity: 1;
+  max-height: 500px;
+  -webkit-transition: .3s, max-height .3s, opacity .6s;
+  transition: .3s, max-height .3s, opacity .6s;
 }
 /*# sourceMappingURL=general.css.map */

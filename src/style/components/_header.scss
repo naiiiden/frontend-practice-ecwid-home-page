@@ -134,35 +134,22 @@ header {
 
             .dropdown {
                 list-style-type: none;
-                // display: none;
-                border: 1px solid red;
-                padding-left: 2rem;
+                padding: .5rem 0 .5rem 2rem;
                 position: relative;
-                // left: -50rem;
-                left: 0;
+                left: -10rem;
+                opacity: 0;
                 max-height: 0;
                 overflow: hidden;
-                transition: .4s;
+                transition: .3s, max-height .3s, opacity .2s;
 
                 &.show {
                     display: flex;
                     flex-direction: column;
-                    max-height: 500px;
                     left: 0;
-                    transition: .4s;
-                    // animation-name: height;
-                    // animation-duration: .4s;
+                    opacity: 1;
+                    max-height: 500px;
+                    transition: .3s, max-height .3s, opacity .6s;
                 }
-
-                // @keyframes height {
-                //     0% {
-                //         max-height: 0;
-                //     }
-
-                //     100% {
-                //         max-height: fit-content;
-                //     }
-                // }
             }
         }
     }
