@@ -16,13 +16,13 @@ header {
         position: relative;
         background: none;
         border: none;
-        // border: 1px solid red;
 
         .button--inner--div {
             width: 24px;
             height: 2px;
             background: #0a0c0f;
             border-radius: 4px;
+            transition: .1s;
 
             &::before, &::after {
                 content: "";
@@ -31,7 +31,7 @@ header {
                 background: #0a0c0f;
                 border-radius: 4px;
                 position: absolute;
-
+                transition: .1s;
             }
 
             &::before {
@@ -44,6 +44,20 @@ header {
                 left: 0;
             }
 
+            &.open {
+                &::before {
+                    opacity: 0;
+                    transition: .1s;
+                }
+
+                transform: translate3d(0,0,0) rotate(45deg);
+                transition: .1s;
+
+                &::after {
+                    transform: translate3d(0, 3px,0) rotate(-90deg);
+                    transition: .1s;
+                }
+            }
         }
     }
 

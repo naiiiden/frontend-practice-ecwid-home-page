@@ -50,6 +50,8 @@ header button .button--inner--div {
   height: 2px;
   background: #0a0c0f;
   border-radius: 4px;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
 header button .button--inner--div::before, header button .button--inner--div::after {
@@ -59,6 +61,8 @@ header button .button--inner--div::before, header button .button--inner--div::af
   background: #0a0c0f;
   border-radius: 4px;
   position: absolute;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
 header button .button--inner--div::before {
@@ -69,6 +73,26 @@ header button .button--inner--div::before {
 header button .button--inner--div::after {
   bottom: .175rem;
   left: 0;
+}
+
+header button .button--inner--div.open {
+  -webkit-transform: translate3d(0, 0, 0) rotate(45deg);
+          transform: translate3d(0, 0, 0) rotate(45deg);
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+header button .button--inner--div.open::before {
+  opacity: 0;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+header button .button--inner--div.open::after {
+  -webkit-transform: translate3d(0, 3px, 0) rotate(-90deg);
+          transform: translate3d(0, 3px, 0) rotate(-90deg);
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
 header .header--nav {
