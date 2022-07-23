@@ -100,10 +100,8 @@ header .header--nav {
 }
 
 header .header--nav .header--nav--ul {
-  display: none;
-}
-
-header .header--nav .header--nav--ul.show {
+  list-style-type: none;
+  padding: 0 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,5 +109,23 @@ header .header--nav .header--nav--ul.show {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  top: 5rem;
+  left: 50rem;
+  bottom: 0;
+  -webkit-transition: .2s, left .4s;
+  transition: .2s, left .4s;
+}
+
+header .header--nav .header--nav--ul.show {
+  opacity: 1;
+  visibility: visible;
+  left: 0;
+  border: 1px solid red;
+  -webkit-transition: .2s, left .3s;
+  transition: .2s, left .3s;
 }
 /*# sourceMappingURL=general.css.map */

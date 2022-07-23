@@ -65,11 +65,25 @@ header {
         width: 100%;
 
         .header--nav--ul {
-            display: none;
+            list-style-type: none;
+            padding: 0 1.25rem;
+            display: flex;
+            flex-direction: column;
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            width: 100%;
+            top: 5rem;
+            left: 50rem;
+            bottom: 0;
+            transition: .2s, left .4s;
 
             &.show {
-                display: flex;
-                flex-direction: column;
+                opacity: 1;
+                visibility: visible;
+                left: 0;
+                border: 1px solid red;
+                transition: .2s, left .3s;
             }
         }
     }
