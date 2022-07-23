@@ -130,6 +130,15 @@ header {
                     }
                 }
             }
+
+            .dropdown {
+                display: none;
+
+                &.show {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
         }
     }
 }

@@ -4,6 +4,11 @@ import { ReactComponent as WindowIcon } from "../images/icons/new-window.svg";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
+    const [openSell, setOpenSell] = useState(false);
+    const [openMarket, setOpenMarket] = useState(false);
+    const [openManage, setOpenManage] = useState(false);
+    const [openLearn, setOpenLearn] = useState(false);
+    const [openPartners, setOpenPartners] = useState(false);
 
     return (
         <header className="header">
@@ -13,9 +18,9 @@ const Header = () => {
             </button>
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
-                    <li>
+                    <li onClick={() => setOpenSell(!openSell)}>
                         <span>Sell</span>
-                        <ul className={`dropdown`}>
+                        <ul className={`dropdown ${openSell ? "show" : ""}`}>
                             <li><a href="#">Sell anywhere</a></li>
                             <li><a href="#">Website</a></li>
                             <li><a href="#">Instagram</a></li>
@@ -27,9 +32,9 @@ const Header = () => {
                             <li><a href="#">ShopApp</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <li onClick={() => setOpenMarket(!openMarket)}>
                         <span>Market</span>
-                        <ul className={`dropdown`}>
+                        <ul className={`dropdown ${openMarket ? "show" : ""}`}>
                             <li><a href="#">Market your business</a></li>
                             <li><a href="#">Google Ads</a></li>
                             <li><a href="#">Facebook</a></li>
@@ -37,18 +42,18 @@ const Header = () => {
 
                         </ul>
                     </li>
-                    <li>
+                    <li onClick={() => setOpenManage(!openManage)}>
                         <span>Manage</span>
-                        <ul className={`dropdown`}>
+                        <ul className={`dropdown ${openManage ? "show" : ""}`}>
                             <li><a href="#">Manage your store</a></li>
                             <li><a href="#">Mobile</a></li>
                             <li><a href="#">App Market</a></li>
                             <li><a href="#">Discount Shipping</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <li onClick={() => setOpenLearn(!openLearn)}>
                         <span>Learn</span>
-                        <ul className={`dropdown`}>
+                        <ul className={`dropdown ${openLearn ? "show" : ""}`}>
                             <li><a href="#">Learn</a></li>
                             <li><a href="#">Demo</a></li>
                             <li><a href="#">Help Center</a></li>
@@ -60,9 +65,9 @@ const Header = () => {
                             <li><a href="#">Tutorials</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <li onClick={() => setOpenPartners(!openPartners)}>
                         <span>Partners</span>
-                        <ul className={`dropdown`}>
+                        <ul className={`dropdown ${openPartners ? "show" : ""}`}>
                             <li><a href="#">Partners <WindowIcon className="window--icon"/></a></li>
                             <li><a href="#">Resell <WindowIcon className="window--icon"/></a></li>
                             <li><a href="#">Refer <WindowIcon className="window--icon"/></a></li>

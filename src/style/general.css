@@ -174,4 +174,18 @@ header .header--nav .header--nav--ul li.get--started--li.get--started--li a, hea
   border-radius: 6px;
   color: #fff;
 }
+
+header .header--nav .header--nav--ul .dropdown {
+  display: none;
+}
+
+header .header--nav .header--nav--ul .dropdown.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=general.css.map */
