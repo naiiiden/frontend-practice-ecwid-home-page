@@ -67,6 +67,7 @@ header {
         .header--nav--ul {
             list-style-type: none;
             padding: 0 1.25rem;
+            padding: 0;
             display: flex;
             flex-direction: column;
             opacity: 0;
@@ -86,7 +87,7 @@ header {
             }
 
             li {
-                padding: .5rem 0;
+                padding: 0;
                 position: relative;
 
                 span {
@@ -94,13 +95,29 @@ header {
                     position: relative;
                     font-weight: 600;
                     width: 100%;
+                    padding: 8px 1.25rem;
+                    transition: .2s;
+
+                    &.open {
+                        background: #f7f7f7;
+                        color: #666;
+                        transition: .2s;
+
+                        &::after {
+                            transform: rotate(90deg);
+                            top: 0;
+                            right: 1.25rem;
+                            transition: .2s;
+                        }
+                    }
 
                     &::after {
                         content: '›';
                         position: absolute;
-                        right: 0;
+                        right: 1.25rem;
                         font-size: 26px;
-                        top: -10px;
+                        top: -3px;
+                        transition: .2s;
                     }
                 }
 
@@ -134,13 +151,17 @@ header {
 
             .dropdown {
                 list-style-type: none;
-                padding: .5rem 0 .5rem 2rem;
+                padding: .5rem 0 .5rem 3.25rem;
                 position: relative;
                 left: -10rem;
                 opacity: 0;
                 max-height: 0;
                 overflow: hidden;
                 transition: .3s, max-height .3s, opacity .2s;
+
+                li {
+                    padding: .5rem 0;
+                }
 
                 &.show {
                     display: flex;
