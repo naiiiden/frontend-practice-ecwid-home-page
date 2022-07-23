@@ -1,0 +1,48 @@
+header {
+    padding: 1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header--logo {
+        width: 98px;
+        height: 30px;
+    }
+
+    button {
+        width: 24px;
+        height: 24px;
+        position: relative;
+        background: none;
+        border: none;
+        // border: 1px solid red;
+
+        .button--inner--div {
+            width: 24px;
+            height: 2px;
+            background: #0a0c0f;
+            border-radius: 4px;
+
+            &::before, &::after {
+                content: "";
+                width: 24px;
+                height: 2px;
+                background: #0a0c0f;
+                border-radius: 4px;
+                position: absolute;
+
+            }
+
+            &::before {
+                top: .175rem;
+                left: 0;
+            }
+
+            &::after {
+                bottom: .175rem;
+                left: 0;
+            }
+
+        }
+    }
+}
