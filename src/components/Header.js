@@ -10,6 +10,8 @@ const Header = () => {
     const [openLearn, setOpenLearn] = useState(false);
     const [openPartners, setOpenPartners] = useState(false);
 
+    openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+
     return (
         <header className="header">
             <img src={header_logo} alt="Ecwid's logo" className="header--logo"/>
