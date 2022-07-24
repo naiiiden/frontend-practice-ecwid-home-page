@@ -31,6 +31,11 @@ header {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 
 header .header--logo {
@@ -101,9 +106,10 @@ header .header--nav {
 }
 
 header .header--nav .header--nav--ul {
+  background: #fff;
   list-style-type: none;
-  padding: 0 1.25rem;
-  padding: 0;
+  padding-bottom: 3rem;
+  margin-top: 3.9rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,9 +119,9 @@ header .header--nav .header--nav--ul {
           flex-direction: column;
   opacity: 0;
   visibility: hidden;
-  position: absolute;
+  position: fixed;
   width: 100%;
-  top: 5rem;
+  top: 0;
   left: 50rem;
   bottom: 0;
   -webkit-transition: .2s, left .4s;
@@ -123,6 +129,7 @@ header .header--nav .header--nav--ul {
 }
 
 header .header--nav .header--nav--ul.show {
+  overflow: scroll;
   opacity: 1;
   visibility: visible;
   left: 0;
@@ -179,6 +186,10 @@ header .header--nav .header--nav--ul li a {
 
 header .header--nav .header--nav--ul li .pricing--link {
   padding-left: 1.25rem;
+}
+
+header .header--nav .header--nav--ul li.pricing--li {
+  padding: .5rem 0;
 }
 
 header .header--nav .header--nav--ul li.get--started--li, header .header--nav .header--nav--ul li.login--li {

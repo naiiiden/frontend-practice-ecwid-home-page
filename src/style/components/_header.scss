@@ -4,6 +4,10 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 99;
 
     .header--logo {
         width: 98px;
@@ -65,21 +69,23 @@ header {
         width: 100%;
 
         .header--nav--ul {
+            background: #fff;
             list-style-type: none;
-            padding: 0 1.25rem;
-            padding: 0;
+            padding-bottom: 3rem;
+            margin-top: 3.9rem;
             display: flex;
             flex-direction: column;
             opacity: 0;
             visibility: hidden;
-            position: absolute;
+            position: fixed;
             width: 100%;
-            top: 5rem;
+            top: 0;
             left: 50rem;
             bottom: 0;
             transition: .2s, left .4s;
-
+            
             &.show {
+                overflow: scroll;
                 opacity: 1;
                 visibility: visible;
                 left: 0;
@@ -129,6 +135,10 @@ header {
 
                 .pricing--link {
                     padding-left: 1.25rem;
+                }
+
+                &.pricing--li {
+                    padding: .5rem 0;
                 }
 
                 &.get--started--li, &.login--li {
