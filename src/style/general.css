@@ -38,6 +38,12 @@ header {
   z-index: 99;
 }
 
+header .header--logo--link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 header .header--logo {
   width: 98px;
   height: 30px;
@@ -69,16 +75,15 @@ header button .button--inner--div::before, header button .button--inner--div::af
   position: absolute;
   -webkit-transition: .1s;
   transition: .1s;
+  left: 0;
 }
 
 header button .button--inner--div::before {
   top: .175rem;
-  left: 0;
 }
 
 header button .button--inner--div::after {
   bottom: .175rem;
-  left: 0;
 }
 
 header button .button--inner--div.open {
@@ -188,29 +193,19 @@ header .header--nav .header--nav--ul li .pricing--link {
   padding-left: 1.25rem;
 }
 
-header .header--nav .header--nav--ul li.pricing--li {
+header .header--nav .header--nav--ul li.pricing--li, header .header--nav .header--nav--ul li.login--li {
   padding: .5rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header .header--nav .header--nav--ul li.pricing--li a {
+header .header--nav .header--nav--ul li.pricing--li a, header .header--nav .header--nav--ul li.login--li a {
   width: 100%;
 }
 
 header .header--nav .header--nav--ul li.get--started--li, header .header--nav .header--nav--ul li.login--li {
   text-align: center;
-}
-
-header .header--nav .header--nav--ul li.get--started--li.login--li, header .header--nav .header--nav--ul li.login--li.login--li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-header .header--nav .header--nav--ul li.get--started--li.login--li a, header .header--nav .header--nav--ul li.login--li.login--li a {
-  width: 100%;
 }
 
 header .header--nav .header--nav--ul li.get--started--li.get--started--li, header .header--nav .header--nav--ul li.login--li.get--started--li {

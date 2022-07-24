@@ -14,7 +14,7 @@ const Header = () => {
 
     return (
         <header className="header">
-            <img src={header_logo} alt="Ecwid's logo" className="header--logo"/>
+            <a href="https://www.ecwid.com/" className="header--logo--link"><img src={header_logo} alt="Ecwid's logo" className="header--logo"/></a>
             <button className="mobile--navigation--button" aria-label="toggle navigation" onClick={() => setOpenMenu(!openMenu)}>
                 <div className={`button--inner--div ${openMenu ? "open" : ""}`}></div>
             </button>

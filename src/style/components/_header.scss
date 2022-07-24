@@ -9,6 +9,10 @@ header {
     top: 0;
     z-index: 99;
 
+    .header--logo--link {
+        display: flex;
+    }
+
     .header--logo {
         width: 98px;
         height: 30px;
@@ -36,16 +40,15 @@ header {
                 border-radius: 4px;
                 position: absolute;
                 transition: .1s;
+                left: 0;
             }
-
+            
             &::before {
                 top: .175rem;
-                left: 0;
             }
 
             &::after {
                 bottom: .175rem;
-                left: 0;
             }
 
             &.open {
@@ -137,7 +140,7 @@ header {
                     padding-left: 1.25rem;
                 }
 
-                &.pricing--li {
+                &.pricing--li, &.login--li {
                     padding: .5rem 0;
                     display: flex;
 
@@ -148,14 +151,6 @@ header {
 
                 &.get--started--li, &.login--li {
                     text-align: center;
-
-                    &.login--li {
-                        display: flex;
-
-                        a {
-                            width: 100%;
-                        }
-                    }
 
                     &.get--started--li {
                         margin: 3rem 1.25rem 1rem 1.25rem;
