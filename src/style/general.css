@@ -36,6 +36,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 99;
+  overflow-x: clip;
 }
 
 header .header--logo--link {
@@ -55,6 +56,11 @@ header button {
   position: relative;
   background: none;
   border: none;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
+  pointer-events: all;
 }
 
 header button .button--inner--div {
@@ -140,6 +146,11 @@ header .header--nav .header--nav--ul.show {
   left: 0;
   -webkit-transition: .2s, left .3s;
   transition: .2s, left .3s;
+  -webkit-user-select: unset;
+     -moz-user-select: unset;
+      -ms-user-select: unset;
+          user-select: unset;
+  pointer-events: all;
 }
 
 header .header--nav .header--nav--ul li {
@@ -298,16 +309,21 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     pointer-events: none;
     position: absolute;
     top: 0;
+    overflow: hidden;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
     width: 100vw;
     z-index: -999;
+    visibility: hidden;
+    opacity: 0;
     -webkit-transition: .2s;
     transition: .2s;
   }
   header .overlay.overlay--open {
+    opacity: 1;
+    visibility: visible;
     background: rgba(0, 0, 0, 0.6);
     -webkit-transition: .2s;
     transition: .2s;

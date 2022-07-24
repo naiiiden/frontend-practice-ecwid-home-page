@@ -8,6 +8,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 99;
+    overflow-x: clip;
 
     .header--logo--link {
         display: flex;
@@ -24,6 +25,8 @@ header {
         position: relative;
         background: none;
         border: none;
+        user-select: all;
+        pointer-events: all;
 
         .button--inner--div {
             width: 24px;
@@ -93,6 +96,8 @@ header {
                 visibility: visible;
                 left: 0;
                 transition: .2s, left .3s;
+                user-select: unset;
+                pointer-events: all;
             }
 
             li {
@@ -240,12 +245,17 @@ header {
             pointer-events: none;
             position: absolute;
             top: 0;
+            overflow: hidden;
             user-select: none;
             width: 100vw;
             z-index: -999;
+            visibility: hidden;
+            opacity: 0;
             transition: .2s;
 
             &.overlay--open {
+                opacity: 1;
+                visibility: visible;
                 background: rgba(0,0,0,.6);
                 transition: .2s;
             }

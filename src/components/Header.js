@@ -11,6 +11,8 @@ const Header = () => {
     const [openPartners, setOpenPartners] = useState(false);
 
     openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+    openMenu ? document.body.style.pointerEvents = "none" : document.body.style.pointerEvents = "";
+    openMenu ? document.body.style.userSelect = "none" : document.body.style.userSelect = "";
 
     return (
         <header className="header">
