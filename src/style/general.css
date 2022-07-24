@@ -274,11 +274,16 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
 }
 
 @media screen and (min-width: 425px) {
+  header button {
+    z-index: 99;
+  }
   header .header--nav .header--nav--ul {
     left: unset;
     right: -50rem;
     -webkit-transition: .2s, right .4s;
     transition: .2s, right .4s;
+    margin-top: unset;
+    padding-top: 3.9rem;
   }
   header .header--nav .header--nav--ul.show {
     width: 376px;
@@ -286,6 +291,26 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     right: 0;
     -webkit-transition: .2s, right .3s;
     transition: .2s, right .3s;
+  }
+  header .overlay {
+    height: 100vh;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    width: 100vw;
+    z-index: -999;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  header .overlay.overlay--open {
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: .2s;
+    transition: .2s;
   }
 }
 /*# sourceMappingURL=general.css.map */

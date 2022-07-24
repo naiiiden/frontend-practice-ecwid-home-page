@@ -213,11 +213,17 @@ header {
 
 @media screen and (min-width: 425px) {
     header {
+        button {
+            z-index: 99;
+        }
+
         .header--nav {
             .header--nav--ul {
                 left: unset;
                 right: -50rem;
                 transition: .2s, right .4s;
+                margin-top: unset;
+                padding-top: 3.9rem;
 
                 &.show {
                     width: 376px;
@@ -225,6 +231,23 @@ header {
                     right: 0;
                     transition: .2s, right .3s;
                 }
+            }
+        }
+
+        .overlay {
+            height: 100vh;
+            left: 0;
+            pointer-events: none;
+            position: absolute;
+            top: 0;
+            user-select: none;
+            width: 100vw;
+            z-index: -999;
+            transition: .2s;
+
+            &.overlay--open {
+                background: rgba(0,0,0,.6);
+                transition: .2s;
             }
         }
     }
