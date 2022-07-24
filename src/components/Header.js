@@ -15,6 +15,8 @@ const Header = () => {
     openMenu ? document.body.style.userSelect = "none" : document.body.style.userSelect = "";
 
     return (
+        <>
+        <div className={`click--outside ${openMenu ? "close" : ""}`} onClick={() => setOpenMenu(false)}></div>
         <header className="header">
             <a href="https://www.ecwid.com/" className="header--logo--link"><img src={header_logo} alt="Ecwid's logo" className="header--logo"/></a>
             <button className="mobile--navigation--button" aria-label="toggle navigation" onClick={() => setOpenMenu(!openMenu)}>
@@ -86,6 +88,7 @@ const Header = () => {
             </nav>
             <div className={`overlay ${openMenu ? "overlay--open" : ""}`}></div>
         </header>
+        </>
     )
 }
 
