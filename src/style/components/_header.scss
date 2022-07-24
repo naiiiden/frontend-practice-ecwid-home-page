@@ -210,3 +210,22 @@ header {
         }
     }
 }
+
+@media screen and (min-width: 425px) {
+    header {
+        .header--nav {
+            .header--nav--ul {
+                left: unset;
+                right: -50rem;
+                transition: .2s, right .4s;
+
+                &.show {
+                    width: 376px;
+                    left: unset;
+                    right: 0;
+                    transition: .2s, right .3s;
+                }
+            }
+        }
+    }
+}

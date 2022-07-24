@@ -272,4 +272,20 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   stroke: #9c9c9c;
   margin-left: 8px;
 }
+
+@media screen and (min-width: 425px) {
+  header .header--nav .header--nav--ul {
+    left: unset;
+    right: -50rem;
+    -webkit-transition: .2s, right .4s;
+    transition: .2s, right .4s;
+  }
+  header .header--nav .header--nav--ul.show {
+    width: 376px;
+    left: unset;
+    right: 0;
+    -webkit-transition: .2s, right .3s;
+    transition: .2s, right .3s;
+  }
+}
 /*# sourceMappingURL=general.css.map */
