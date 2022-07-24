@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import header_logo from "../images/logo/logo-light.svg"; 
 import { ReactComponent as WindowIcon } from "../images/icons/new-window.svg";
 
@@ -9,10 +9,26 @@ const Header = () => {
     const [openManage, setOpenManage] = useState(false);
     const [openLearn, setOpenLearn] = useState(false);
     const [openPartners, setOpenPartners] = useState(false);
+    const [isTablet, setIsTablet] = useState(window.innerWidth >= 768);
+    const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1280);
 
     openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
     openMenu ? document.body.style.pointerEvents = "none" : document.body.style.pointerEvents = "";
     openMenu ? document.body.style.userSelect = "none" : document.body.style.userSelect = "";
+
+    const updateMediaTablet = () => setIsTablet(window.innerWidth >= 768);
+    
+    useEffect(() => {
+        window.addEventListener("resize", updateMediaTablet);
+        return () => window.removeEventListener("resize", updateMediaTablet);
+    });
+    
+    const updateMediaDesktop = () => setIsDesktop(window.innerWidth >= 1280);
+    
+    useEffect(() => {
+        window.addEventListener("resize", updateMediaDesktop);
+        return () => window.removeEventListener("resize", updateMediaDesktop);
+    });
 
     return (
         <>
@@ -23,6 +39,9 @@ const Header = () => {
                 <div className={`button--inner--div ${openMenu ? "open" : ""}`}></div>
             </button>
             <nav className="header--nav">
+                {isTablet && !isDesktop ? <ul>
+                    <li><a href="#">TEST</a></li>
+                </ul> : ""}
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li>
                         <span onClick={() => setOpenSell(!openSell)} className={`${openSell ? "open" : ""}`} role="button">Sell</span>
