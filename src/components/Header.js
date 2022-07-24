@@ -21,7 +21,7 @@ const Header = () => {
             <nav className="header--nav">
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li>
-                        <span onClick={() => setOpenSell(!openSell)} className={`${openSell ? "open" : ""}`}>Sell</span>
+                        <span onClick={() => setOpenSell(!openSell)} className={`${openSell ? "open" : ""}`} role="button">Sell</span>
                         <ul className={`dropdown ${openSell ? "show" : ""}`}>
                             <li><a href="#">Sell anywhere</a></li>
                             <li><a href="#">Website</a></li>
@@ -35,7 +35,7 @@ const Header = () => {
                         </ul>
                     </li>
                     <li>
-                        <span onClick={() => setOpenMarket(!openMarket)} className={`${openMarket ? "open" : ""}`}>Market</span>
+                        <span onClick={() => setOpenMarket(!openMarket)} className={`${openMarket ? "open" : ""}`} role="button">Market</span>
                         <ul className={`dropdown ${openMarket ? "show" : ""}`}>
                             <li><a href="#">Market your business</a></li>
                             <li><a href="#">Google Ads</a></li>
@@ -45,7 +45,7 @@ const Header = () => {
                         </ul>
                     </li>
                     <li>
-                        <span onClick={() => setOpenManage(!openManage)} className={`${openManage ? "open" : ""}`}>Manage</span>
+                        <span onClick={() => setOpenManage(!openManage)} className={`${openManage ? "open" : ""}`} role="button">Manage</span>
                         <ul className={`dropdown ${openManage ? "show" : ""}`}>
                             <li><a href="#">Manage your store</a></li>
                             <li><a href="#">Mobile</a></li>
@@ -54,7 +54,7 @@ const Header = () => {
                         </ul>
                     </li>
                     <li>
-                        <span onClick={() => setOpenLearn(!openLearn)} className={`${openLearn ? "open" : ""}`}>Learn</span>
+                        <span onClick={() => setOpenLearn(!openLearn)} className={`${openLearn ? "open" : ""}`} role="button">Learn</span>
                         <ul className={`dropdown ${openLearn ? "show" : ""}`}>
                             <li><a href="#">Learn</a></li>
                             <li><a href="#">Demo</a></li>
@@ -68,7 +68,7 @@ const Header = () => {
                         </ul>
                     </li>
                     <li>
-                        <span onClick={() => setOpenPartners(!openPartners)} className={`${openPartners ? "open" : ""}`}>Partners</span>
+                        <span onClick={() => setOpenPartners(!openPartners)} className={`${openPartners ? "open" : ""}`} role="button">Partners</span>
                         <ul className={`dropdown ${openPartners ? "show" : ""}`}>
                             <li><a href="#">Partners <WindowIcon className="window--icon"/></a></li>
                             <li><a href="#">Resell <WindowIcon className="window--icon"/></a></li>
