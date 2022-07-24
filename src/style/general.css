@@ -307,9 +307,9 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     transition: .2s, right .4s;
     margin-top: unset;
     padding-top: 3.9rem;
+    width: 376px;
   }
   header .header--nav .header--nav--ul.show {
-    width: 376px;
     left: unset;
     right: 0;
     -webkit-transition: .2s, right .3s;
