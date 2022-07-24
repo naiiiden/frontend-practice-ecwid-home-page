@@ -112,7 +112,7 @@ header {
                         &::after {
                             transform: rotate(90deg);
                             top: 0;
-                            right: 1.25rem;
+                            right: 1.35rem;
                             transition: .2s;
                         }
                     }
@@ -120,7 +120,7 @@ header {
                     &::after {
                         content: '›';
                         position: absolute;
-                        right: 1.25rem;
+                        right: 1.35rem;
                         font-size: 26px;
                         top: -3px;
                         transition: .2s;

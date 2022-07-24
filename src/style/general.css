@@ -163,7 +163,7 @@ header .header--nav .header--nav--ul li span.open::after {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   top: 0;
-  right: 1.25rem;
+  right: 1.35rem;
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -171,7 +171,7 @@ header .header--nav .header--nav--ul li span.open::after {
 header .header--nav .header--nav--ul li span::after {
   content: '›';
   position: absolute;
-  right: 1.25rem;
+  right: 1.35rem;
   font-size: 26px;
   top: -3px;
   -webkit-transition: .2s;
