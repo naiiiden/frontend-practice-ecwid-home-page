@@ -26,9 +26,13 @@ const Header = () => {
     const updateMediaDesktop = () => setIsDesktop(window.innerWidth >= 1280);
     
     useEffect(() => {
+        if (isDesktop) {
+            setOpenMenu(false);
+        }
         window.addEventListener("resize", updateMediaDesktop);
         return () => window.removeEventListener("resize", updateMediaDesktop);
     });
+
 
     return (
         <>
