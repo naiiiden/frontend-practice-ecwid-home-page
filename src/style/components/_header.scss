@@ -274,3 +274,39 @@ header {
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    header {
+        flex-wrap: nowrap;
+        gap: 2rem;
+
+        button {
+            order: 2;
+        }
+
+        .header--nav {
+            .nav768-1280--ul {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+
+                .get--started--li2 {
+                    margin-left: auto;
+
+                    a {
+                        font-size: .875rem;
+                        font-weight: 700;
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #0a0c0f;
+                    font-weight: 600;
+                }
+
+            }
+        }
+    }
+}

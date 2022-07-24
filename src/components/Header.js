@@ -43,8 +43,12 @@ const Header = () => {
                 <div className={`button--inner--div ${openMenu ? "open" : ""}`}></div>
             </button>
             <nav className="header--nav">
-                {isTablet && !isDesktop ? <ul>
-                    <li><a href="#">TEST</a></li>
+                {isTablet && !isDesktop ? 
+                <ul className="nav768-1280--ul">
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Market</a></li>
+                    <li><a href="#">Manage</a></li>
+                    <li className="get--started--li2"><a href="#">Get Started for FREE</a></li>
                 </ul> : ""}
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                     <li>

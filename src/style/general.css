@@ -341,4 +341,39 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     transition: .2s;
   }
 }
+
+@media screen and (min-width: 768px) {
+  header {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 2rem;
+  }
+  header button {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  header .header--nav .nav768-1280--ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+  }
+  header .header--nav .nav768-1280--ul .get--started--li2 {
+    margin-left: auto;
+  }
+  header .header--nav .nav768-1280--ul .get--started--li2 a {
+    font-size: .875rem;
+    font-weight: 700;
+  }
+  header .header--nav .nav768-1280--ul a {
+    text-decoration: none;
+    color: #0a0c0f;
+    font-weight: 600;
+  }
+}
 /*# sourceMappingURL=general.css.map */
