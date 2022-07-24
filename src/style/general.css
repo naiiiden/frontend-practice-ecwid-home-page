@@ -190,10 +190,27 @@ header .header--nav .header--nav--ul li .pricing--link {
 
 header .header--nav .header--nav--ul li.pricing--li {
   padding: .5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header--nav .header--nav--ul li.pricing--li a {
+  width: 100%;
 }
 
 header .header--nav .header--nav--ul li.get--started--li, header .header--nav .header--nav--ul li.login--li {
   text-align: center;
+}
+
+header .header--nav .header--nav--ul li.get--started--li.login--li, header .header--nav .header--nav--ul li.login--li.login--li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header--nav .header--nav--ul li.get--started--li.login--li a, header .header--nav .header--nav--ul li.login--li.login--li a {
+  width: 100%;
 }
 
 header .header--nav .header--nav--ul li.get--started--li.get--started--li, header .header--nav .header--nav--ul li.login--li.get--started--li {

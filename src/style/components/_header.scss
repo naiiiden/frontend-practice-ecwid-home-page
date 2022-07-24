@@ -139,10 +139,23 @@ header {
 
                 &.pricing--li {
                     padding: .5rem 0;
+                    display: flex;
+
+                    a {
+                        width: 100%;
+                    }
                 }
 
                 &.get--started--li, &.login--li {
                     text-align: center;
+
+                    &.login--li {
+                        display: flex;
+
+                        a {
+                            width: 100%;
+                        }
+                    }
 
                     &.get--started--li {
                         margin: 3rem 1.25rem 1rem 1.25rem;
