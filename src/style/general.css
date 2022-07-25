@@ -401,6 +401,7 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
 
 @media screen and (min-width: 1280px) {
   header {
+    padding: 1rem 4.5rem;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
