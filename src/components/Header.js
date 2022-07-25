@@ -31,7 +31,7 @@ const Header = () => {
         }
         window.addEventListener("resize", updateMediaDesktop);
         return () => window.removeEventListener("resize", updateMediaDesktop);
-    });
+    }, [isDesktop]);
 
 
     return (
