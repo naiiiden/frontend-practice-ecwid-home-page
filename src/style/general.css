@@ -344,6 +344,7 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
 
 @media screen and (min-width: 768px) {
   header {
+    padding: 1rem 3.5rem;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     gap: 2rem;
@@ -352,6 +353,27 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+  }
+  header .header--nav .header--nav--ul {
+    width: 350px;
+  }
+  header .header--nav .header--nav--ul li span {
+    padding: 8px 3.5rem;
+  }
+  header .header--nav .header--nav--ul li span::after {
+    right: 3.625rem;
+  }
+  header .header--nav .header--nav--ul li span.open::after {
+    right: 3.625rem;
+  }
+  header .header--nav .header--nav--ul li.pricing--li {
+    padding-left: 2.25rem;
+  }
+  header .header--nav .header--nav--ul li.get--started--li {
+    margin: 3rem 3.5rem 1rem 3.5rem !important;
+  }
+  header .header--nav .header--nav--ul .dropdown {
+    padding: .5rem 0 .5rem 5.25rem;
   }
   header .header--nav .nav768-1280--ul {
     list-style-type: none;
