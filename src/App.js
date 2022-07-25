@@ -4,7 +4,7 @@ import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div style={{background: "red"}}>
+    <div>
       <Header/>
       <p>123</p>
       <p>123</p>
