@@ -338,7 +338,54 @@ header {
                     color: #0a0c0f;
                     font-weight: 600;
                 }
+            }
+        }
+    }
+}
 
+@media screen and (min-width: 1024px) {
+    header {
+        button {
+            cursor: pointer;
+        }
+
+        .header--nav {
+            .header--nav--ul {
+                li {
+                    span {
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #666;
+                        }
+                    }
+
+                    a {
+                        transition: .2s;
+
+                        &:hover {
+                            color: #666;
+                            transition: .2s;
+                        }
+                    }
+
+                    &.get--started--li {
+                        a:hover {
+                            transform: translateY(-4px);
+                        }
+                    }
+                }
+            }
+            
+            .nav768-1280--ul {
+                a {
+                    transition: .2s;
+
+                    &:hover {
+                        color: #666;
+                        transition: .2s;
+                    }
+                }
             }
         }
     }

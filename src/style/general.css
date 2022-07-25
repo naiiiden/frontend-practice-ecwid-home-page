@@ -399,6 +399,40 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  header button {
+    cursor: pointer;
+  }
+  header .header--nav .header--nav--ul li span {
+    cursor: pointer;
+  }
+  header .header--nav .header--nav--ul li span:hover {
+    color: #666;
+  }
+  header .header--nav .header--nav--ul li a {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  header .header--nav .header--nav--ul li a:hover {
+    color: #666;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  header .header--nav .header--nav--ul li.get--started--li a:hover {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+  header .header--nav .nav768-1280--ul a {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  header .header--nav .nav768-1280--ul a:hover {
+    color: #666;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   header {
     padding: 1rem 4.5rem;
