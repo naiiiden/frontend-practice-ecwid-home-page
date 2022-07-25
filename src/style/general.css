@@ -398,4 +398,19 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     font-weight: 600;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  header button {
+    display: none;
+  }
+  header .header--nav .header--nav--ul {
+    position: unset;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    opacity: unset;
+    visibility: unset;
+  }
+}
 /*# sourceMappingURL=general.css.map */

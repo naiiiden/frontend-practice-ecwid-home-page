@@ -51,6 +51,7 @@ const Header = () => {
                     <li className="get--started--li2"><a href="#">Get Started for FREE</a></li>
                 </ul> : ""}
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
+                {!isDesktop ? 
                     <li>
                         <span onClick={() => setOpenSell(!openSell)} className={`${openSell ? "open" : ""}`} role="button">Sell</span>
                         <ul className={`dropdown ${openSell ? "show" : ""}`}>
@@ -65,6 +66,10 @@ const Header = () => {
                             <li><a href="#">ShopApp</a></li>
                         </ul>
                     </li>
+                    :
+                    <li><a href="#">Sell</a></li>
+                }
+                {!isDesktop ? 
                     <li>
                         <span onClick={() => setOpenMarket(!openMarket)} className={`${openMarket ? "open" : ""}`} role="button">Market</span>
                         <ul className={`dropdown ${openMarket ? "show" : ""}`}>
@@ -75,6 +80,10 @@ const Header = () => {
 
                         </ul>
                     </li>
+                    :
+                    <li><a href="#">Market</a></li>
+                }
+                {!isDesktop ? 
                     <li>
                         <span onClick={() => setOpenManage(!openManage)} className={`${openManage ? "open" : ""}`} role="button">Manage</span>
                         <ul className={`dropdown ${openManage ? "show" : ""}`}>
@@ -84,6 +93,10 @@ const Header = () => {
                             <li><a href="#">Discount Shipping</a></li>
                         </ul>
                     </li>
+                    :
+                    <li><a href="#">Manage</a></li>
+                }
+                {!isDesktop ? 
                     <li>
                         <span onClick={() => setOpenLearn(!openLearn)} className={`${openLearn ? "open" : ""}`} role="button">Learn</span>
                         <ul className={`dropdown ${openLearn ? "show" : ""}`}>
@@ -98,6 +111,10 @@ const Header = () => {
                             <li><a href="#">Tutorials</a></li>
                         </ul>
                     </li>
+                    :
+                    <li><a href="#">Learn</a></li>
+                }
+                {!isDesktop ? 
                     <li>
                         <span onClick={() => setOpenPartners(!openPartners)} className={`${openPartners ? "open" : ""}`} role="button">Partners</span>
                         <ul className={`dropdown ${openPartners ? "show" : ""}`}>
@@ -108,6 +125,9 @@ const Header = () => {
                             <li><a href="#">Find an expert <WindowIcon className="window--icon"/></a></li>
                         </ul>
                     </li>
+                    :
+                    <li><a href="#">Partners</a></li>
+                }
                     <li className="pricing--li"><a href="#" className="pricing--link link">Pricing</a></li>
                     <li className="get--started--li"><a href="#" className="get--started--link link">Get started for FREE</a></li>
                     <li className="login--li"><a href="#" className="login--link link">Login</a></li>
