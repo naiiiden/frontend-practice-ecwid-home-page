@@ -400,17 +400,63 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
 }
 
 @media screen and (min-width: 1280px) {
+  header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .header--logo {
+    min-width: 106px;
+    height: 32px;
+  }
   header button {
     display: none;
   }
   header .header--nav .header--nav--ul {
     position: unset;
+    opacity: unset;
+    visibility: unset;
+    width: unset;
+    padding: unset;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    opacity: unset;
-    visibility: unset;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+  }
+  header .header--nav .header--nav--ul li {
+    padding: unset;
+    margin: unset;
+  }
+  header .header--nav .header--nav--ul li.get--started--li, header .header--nav .header--nav--ul li.pricing--li, header .header--nav .header--nav--ul li.login--li {
+    margin: unset !important;
+    padding: unset;
+  }
+  header .header--nav .header--nav--ul li.get--started--li.login--li, header .header--nav .header--nav--ul li.pricing--li.login--li, header .header--nav .header--nav--ul li.login--li.login--li {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  header .header--nav .header--nav--ul li.get--started--li.get--started--li, header .header--nav .header--nav--ul li.pricing--li.get--started--li, header .header--nav .header--nav--ul li.login--li.get--started--li {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    line-height: unset;
+  }
+  header .header--nav .header--nav--ul li.get--started--li.get--started--li a, header .header--nav .header--nav--ul li.pricing--li.get--started--li a, header .header--nav .header--nav--ul li.login--li.get--started--li a {
+    padding: 6px 14px !important;
+    font-size: .875rem;
+  }
+  header .header--nav .header--nav--ul li:nth-child(4) {
+    margin-left: auto;
+  }
+  header .header--nav .header--nav--ul li a {
+    margin: unset;
+    padding: unset;
+    padding-left: unset !important;
   }
 }
 /*# sourceMappingURL=general.css.map */

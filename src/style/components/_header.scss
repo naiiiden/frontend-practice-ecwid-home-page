@@ -346,16 +346,55 @@ header {
 
 @media screen and (min-width: 1280px) {
     header {
+        justify-content: space-between;
+
+        .header--logo {
+            min-width: 106px;
+            height: 32px;
+        }
+
         button {
             display: none;
         }
 
         .header--nav {
             .header--nav--ul {
-                position: unset;
+                position: unset; opacity: unset; visibility: unset; width: unset; padding: unset;
                 flex-direction: row;
-                opacity: unset;
-                visibility: unset;
+                align-items: center;
+                gap: 2rem;
+
+                li {
+                    padding: unset; margin: unset;
+
+                    &.get--started--li, &.pricing--li, &.login--li {
+                        margin: unset !important;
+                        padding: unset;
+
+                        &.login--li {
+                            order: 3;
+                        }
+
+                        &.get--started--li {
+                            order: 4;
+                            line-height: unset;
+
+                            a {
+                                padding: 6px 14px !important;
+                                font-size: .875rem;
+                            }
+                        }
+                    }
+
+                    &:nth-child(4) {
+                        margin-left: auto;
+                    }
+
+                    a {
+                        margin: unset; padding: unset; 
+                        padding-left: unset !important;
+                    }
+                }
             }
         }
     }
