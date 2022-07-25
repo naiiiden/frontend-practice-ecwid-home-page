@@ -11,6 +11,7 @@ const Header = () => {
     const [openPartners, setOpenPartners] = useState(false);
     const [isTablet, setIsTablet] = useState(window.innerWidth >= 768);
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1280);
+    const [scroll, setScroll] = useState(0);
 
     openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
     openMenu ? document.body.style.pointerEvents = "none" : document.body.style.pointerEvents = "";
@@ -29,15 +30,20 @@ const Header = () => {
         if (isDesktop) {
             setOpenMenu(false);
         }
+        document.addEventListener("scroll", () => {
+            const scrollCheck = window.scrollY < 100;
+            if (scrollCheck !== scroll) {
+                setScroll(scrollCheck);
+            }
+        })
         window.addEventListener("resize", updateMediaDesktop);
         return () => window.removeEventListener("resize", updateMediaDesktop);
     }, [isDesktop]);
 
-
     return (
         <>
         <div className={`click--outside ${openMenu ? "close" : ""}`} onClick={() => setOpenMenu(false)}></div>
-        <header className="header">
+        <header className={`header ${scroll ? "" : "sticky"}`}>
             <a href="https://www.ecwid.com/" className="header--logo--link"><img src={header_logo} alt="Ecwid's logo" className="header--logo"/></a>
             <button className="mobile--navigation--button" aria-label="toggle navigation" onClick={() => setOpenMenu(!openMenu)}>
                 <div className={`button--inner--div ${openMenu ? "open" : ""}`}></div>

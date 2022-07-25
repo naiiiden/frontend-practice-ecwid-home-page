@@ -37,6 +37,15 @@ header {
   top: 0;
   z-index: 99;
   overflow-x: clip;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header.sticky {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 header .header--logo--link {
