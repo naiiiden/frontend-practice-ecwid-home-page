@@ -694,7 +694,7 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   }
   .hero--section .hero--description {
     font-size: calc(4px + 12 * (100vw - 320px)/ 1046);
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
   }
   .hero--section .hero--link {
@@ -702,6 +702,14 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     background: #06a666;
     color: white;
     width: 250px;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  .hero--section .hero--link:hover {
+    background: #06945b;
+    color: #fefbfb;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   .hero--section .hero--small {
     font-size: calc(3px + 11 * (100vw - 320px)/ 1046);

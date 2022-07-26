@@ -164,7 +164,7 @@
 
         .hero--description {
             font-size: calc(4px + 12 * (100vw - 320px)/ 1046);
-            max-width: 500px;
+            max-width: 600px;
             margin: auto;
         }
 
@@ -173,6 +173,13 @@
             background: rgb(6,166,102);
             color: rgb(255,255,255);
             width: 250px;
+            transition: .2s;
+
+            &:hover {
+                background: rgb(6,148,91);
+                color: rgb(254,251,251);
+                transition: .2s;
+            }
         }
 
         .hero--small {
