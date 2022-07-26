@@ -70,3 +70,25 @@
         }
     }
 }
+
+@media screen and (min-width: 500px) {
+    .hero--section {
+        .hero--ratings--container {
+            gap: 4rem;
+
+            .hero--rating {
+                &:nth-of-type(4) {
+                    .reviewer {
+                        width: 140px;
+                        height: auto;
+                    }
+                }
+
+                .reviewer {
+                    width: 180px;
+                    height: 44px;
+                }
+            }
+        }
+    }
+}
