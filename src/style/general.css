@@ -523,6 +523,8 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   header .header--nav .header--nav--ul li.get--started--li.get--started--li a, header .header--nav .header--nav--ul li.pricing--li.get--started--li a, header .header--nav .header--nav--ul li.login--li.get--started--li a {
     padding: 6px 14px !important;
     font-size: .875rem;
+    font-family: gotham-medium-web;
+    font-weight: 500;
   }
   header .header--nav .header--nav--ul li:nth-child(4) {
     margin-left: auto;
