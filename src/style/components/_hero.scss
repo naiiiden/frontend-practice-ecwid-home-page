@@ -150,3 +150,45 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .hero--section {
+        padding: 5rem 3.5rem;
+
+        .hero--heading {
+            font-size: calc(15px + 49 * (100vw - 320px)/ 1046);
+            max-width: 900px;
+            color: #000;
+            margin: auto;
+        }
+
+        .hero--description {
+            font-size: calc(4px + 12 * (100vw - 320px)/ 1046);
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .hero--link {
+            font-size: calc(4px + 12 * (100vw - 320px) / 1046);
+            background: rgb(6,166,102);
+            color: rgb(255,255,255);
+            width: 250px;
+        }
+
+        .hero--small {
+            font-size: calc(3px + 11 * (100vw - 320px)/ 1046);
+        }
+
+        .hero--illustration {
+            width: 50%;
+        }
+        
+        .hero--ratings--container {
+            .hero--rating {
+                .reviewer--opinion {
+                    font-size: calc(3px + 11 * (100vw - 320px)/ 1046);
+                }
+            }
+        }
+    }
+}

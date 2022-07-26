@@ -681,4 +681,36 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     font-size: calc(14px + 10 * (100vw - 600px)/ 423);
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .hero--section {
+    padding: 5rem 3.5rem;
+  }
+  .hero--section .hero--heading {
+    font-size: calc(15px + 49 * (100vw - 320px)/ 1046);
+    max-width: 900px;
+    color: #000;
+    margin: auto;
+  }
+  .hero--section .hero--description {
+    font-size: calc(4px + 12 * (100vw - 320px)/ 1046);
+    max-width: 500px;
+    margin: auto;
+  }
+  .hero--section .hero--link {
+    font-size: calc(4px + 12 * (100vw - 320px) / 1046);
+    background: #06a666;
+    color: white;
+    width: 250px;
+  }
+  .hero--section .hero--small {
+    font-size: calc(3px + 11 * (100vw - 320px)/ 1046);
+  }
+  .hero--section .hero--illustration {
+    width: 50%;
+  }
+  .hero--section .hero--ratings--container .hero--rating .reviewer--opinion {
+    font-size: calc(3px + 11 * (100vw - 320px)/ 1046);
+  }
+}
 /*# sourceMappingURL=general.css.map */
