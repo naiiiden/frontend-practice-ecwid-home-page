@@ -92,3 +92,55 @@
         }
     }
 }
+
+@media screen and (min-width: 600px) {
+    .hero--section {
+        width: 90%;
+        margin: auto;
+
+        .hero--heading {
+            font-size: calc(56px + 39 * (100vw - 600px)/ 423);
+        }
+
+        .hero--description {
+            font-size: calc(16px + 11 * (100vw - 600px)/ 423);
+        }
+
+        .hero--link {
+            font-size: calc(16px + 11 * (100vw - 600px) / 423);
+            width: 350px;
+        }
+
+        .hero--small {
+            font-size: calc(14px + 10 * (100vw - 600px)/ 423);
+        }
+
+        .hero--ratings--container {
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+
+            .hero--rating {
+                width: 25%;
+                
+                &:nth-of-type(4), &:nth-of-type(3) {
+                    display: unset;
+
+                    .reviewer {
+                        width: 75px;
+                    }
+                }
+
+                .reviewer {
+                    width: 100px;
+                    height: auto;
+                }
+
+                .reviewer--opinion {
+                    font-size: calc(14px + 10 * (100vw - 600px)/ 423);
+                }
+            }
+        }
+    }
+}
