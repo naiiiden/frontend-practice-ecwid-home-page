@@ -716,6 +716,7 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   }
   .hero--section .hero--illustration {
     width: 50%;
+    margin-bottom: 2rem;
   }
   .hero--section .hero--ratings--container .hero--rating .reviewer--opinion {
     font-size: calc(3px + 11 * (100vw - 320px)/ 1046);
