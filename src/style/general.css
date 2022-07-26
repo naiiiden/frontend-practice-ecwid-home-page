@@ -200,6 +200,7 @@ header .header--nav .header--nav--ul li span {
   padding: 8px 1.25rem;
   -webkit-transition: .2s;
   transition: .2s;
+  font-family: gotham-book-web;
 }
 
 header .header--nav .header--nav--ul li span.open {
@@ -232,6 +233,7 @@ header .header--nav .header--nav--ul li a {
   font-weight: 600;
   text-decoration: none;
   color: #0a0c0f;
+  font-family: gotham-book-web;
 }
 
 header .header--nav .header--nav--ul li .pricing--link {
@@ -257,6 +259,8 @@ header .header--nav .header--nav--ul li.get--started--li.get--started--li, heade
   margin: 3rem 1.25rem 1rem 1.25rem;
   font-size: 1.125rem;
   line-height: 1.5rem;
+  font-family: gotham-medium;
+  font-weight: 600;
 }
 
 header .header--nav .header--nav--ul li.get--started--li.get--started--li a, header .header--nav .header--nav--ul li.login--li.get--started--li a {

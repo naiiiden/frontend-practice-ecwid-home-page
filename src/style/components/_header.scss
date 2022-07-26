@@ -117,6 +117,8 @@ header {
                     width: 100%;
                     padding: 8px 1.25rem;
                     transition: .2s;
+                    font-family: gotham-book-web;
+
 
                     &.open {
                         background: #f7f7f7;
@@ -145,6 +147,7 @@ header {
                     font-weight: 600;
                     text-decoration: none;
                     color: #0a0c0f;
+                    font-family: gotham-book-web;
                 }
 
                 .pricing--link {
@@ -167,6 +170,8 @@ header {
                         margin: 3rem 1.25rem 1rem 1.25rem;
                         font-size: 1.125rem;
                         line-height: 1.5rem;
+                        font-family: gotham-medium;
+                        font-weight: 600;
                         
                         a {
                             display: inline-block;
