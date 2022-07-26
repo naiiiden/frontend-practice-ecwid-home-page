@@ -60,6 +60,7 @@
             .reviewer {
                 width: 97px;
                 height: 24px;
+                margin-bottom: .5rem;
             }
 
             .reviewer--opinion {
@@ -95,8 +96,8 @@
 
 @media screen and (min-width: 600px) {
     .hero--section {
-        width: 90%;
-        margin: auto;
+        padding: 4rem 3.5rem;
+
 
         .hero--heading {
             font-size: calc(56px + 39 * (100vw - 600px)/ 423);
@@ -115,6 +116,10 @@
             font-size: calc(14px + 10 * (100vw - 600px)/ 423);
         }
 
+        .hero--illustration {
+            width: 90%;
+        }
+
         .hero--ratings--container {
             flex-wrap: nowrap;
             align-items: center;
@@ -123,6 +128,7 @@
 
             .hero--rating {
                 width: 25%;
+                height: 90px;
                 
                 &:nth-of-type(4), &:nth-of-type(3) {
                     display: unset;
