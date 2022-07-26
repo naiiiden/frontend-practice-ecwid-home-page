@@ -1,3 +1,16 @@
 .hero--section {
     padding: 1rem 1.25rem;
+    text-align: center;
+
+    .hero--heading {
+        font-size: calc(40px + 35 * (100vw - 320px)/ 279);
+        font-family: Volkhov, sans-serif;
+        font-weight: 400;
+        color: #333;
+    }
+
+    .hero--description {
+        font-size: calc(16px + 14 * (100vw - 320px)/ 279);
+        color: #000;
+    }
 }
