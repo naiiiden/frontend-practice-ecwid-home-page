@@ -544,7 +544,7 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
 }
 
 .hero--section {
-  padding: 1rem 1.25rem;
+  padding: 3rem 1.25rem;
   text-align: center;
 }
 
@@ -553,10 +553,67 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   font-family: Volkhov, sans-serif;
   font-weight: 400;
   color: #333;
+  padding-bottom: 1rem;
 }
 
 .hero--section .hero--description {
   font-size: calc(16px + 14 * (100vw - 320px)/ 279);
+  font-family: gotham-book-web;
+  line-height: 1.55;
   color: #000;
+  padding-bottom: 1.5rem;
+}
+
+.hero--section .hero--link {
+  display: inline-block;
+  font-size: calc(16px + 14 * (100vw - 320px) / 279);
+  font-family: gotham-medium-web;
+  color: black;
+  background: #fae053;
+  border-radius: 20px;
+  border: 2px solid #000;
+  text-decoration: none;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.hero--section .hero--small {
+  font-family: gotham-book-web;
+  font-size: calc(14px + 12 * (100vw - 320px)/ 279);
+  color: #666;
+  padding-bottom: 1.5rem;
+}
+
+.hero--section .hero--ratings--container {
+  padding-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+}
+
+.hero--section .hero--ratings--container .hero--rating:nth-of-type(3) {
+  display: none;
+}
+
+.hero--section .hero--ratings--container .hero--rating:nth-of-type(4) .reviewer {
+  width: 68px;
+}
+
+.hero--section .hero--ratings--container .hero--rating .reviewer {
+  width: 97px;
+  height: 24px;
+}
+
+.hero--section .hero--ratings--container .hero--rating .reviewer--opinion {
+  font-size: calc(14px + 12 * (100vw - 320px)/ 279);
+  font-family: gotham-book-web;
+  color: #666;
 }
 /*# sourceMappingURL=general.css.map */

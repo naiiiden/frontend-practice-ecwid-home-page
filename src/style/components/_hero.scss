@@ -1,5 +1,5 @@
 .hero--section {
-    padding: 1rem 1.25rem;
+    padding: 3rem 1.25rem;
     text-align: center;
 
     .hero--heading {
@@ -7,10 +7,66 @@
         font-family: Volkhov, sans-serif;
         font-weight: 400;
         color: #333;
+        padding-bottom: 1rem;
     }
 
     .hero--description {
         font-size: calc(16px + 14 * (100vw - 320px)/ 279);
+        font-family: gotham-book-web;
+        line-height: 1.55;
         color: #000;
+        padding-bottom: 1.5rem;
+    }
+
+    .hero--link {
+        display: inline-block;
+        font-size: calc(16px + 14 * (100vw - 320px) / 279);
+        font-family: gotham-medium-web;
+        color: rgb(0,0,0);
+        background: rgb(250,224,83);
+        border-radius: 20px;
+        border: 2px solid #000;
+        text-decoration: none;
+        padding: 15px;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .hero--small {
+        font-family: gotham-book-web;
+        font-size: calc(14px + 12 * (100vw - 320px)/ 279);
+        color: #666;
+        padding-bottom: 1.5rem;
+    }
+
+    .hero--ratings--container {
+        padding-top: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+
+        .hero--rating {
+            &:nth-of-type(3) {
+                display: none;
+            }
+
+            &:nth-of-type(4) {
+                .reviewer {
+                    width: 68px;
+                }
+            }
+
+            .reviewer {
+                width: 97px;
+                height: 24px;
+            }
+
+            .reviewer--opinion {
+                font-size: calc(14px + 12 * (100vw - 320px)/ 279);
+                font-family: gotham-book-web;
+                color: #666;
+            }
+        }
     }
 }
