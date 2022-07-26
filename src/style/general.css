@@ -510,4 +510,8 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     margin: auto;
   }
 }
+
+.hero--section {
+  padding: 1rem 1.25rem;
+}
 /*# sourceMappingURL=general.css.map */
