@@ -241,3 +241,10 @@
         }
     }
 }
+
+@media screen and (min-width: 1600px) {
+    .hero--section {
+        max-width: 1600px;
+        margin: auto;
+    }
+}

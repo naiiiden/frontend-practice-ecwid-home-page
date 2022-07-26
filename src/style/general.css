@@ -764,4 +764,11 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     font-size: .875rem;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .hero--section {
+    max-width: 1600px;
+    margin: auto;
+  }
+}
 /*# sourceMappingURL=general.css.map */
