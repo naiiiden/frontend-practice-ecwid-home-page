@@ -422,13 +422,14 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
         -ms-flex-align: center;
             align-items: center;
     gap: 2rem;
+    font-family: gotham-book-web;
   }
   header .header--nav .nav768-1280--ul .get--started--li2 {
     margin-left: auto;
   }
   header .header--nav .nav768-1280--ul .get--started--li2 a {
     font-size: .875rem;
-    font-weight: 700;
+    font-family: gotham-medium-web;
   }
   header .header--nav .nav768-1280--ul a {
     text-decoration: none;

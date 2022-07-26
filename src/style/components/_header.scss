@@ -334,13 +334,14 @@ header {
                 display: flex;
                 align-items: center;
                 gap: 2rem;
+                font-family: gotham-book-web;
 
                 .get--started--li2 {
                     margin-left: auto;
 
                     a {
                         font-size: .875rem;
-                        font-weight: 700;
+                        font-family: gotham-medium-web;
                     }
                 }
 
