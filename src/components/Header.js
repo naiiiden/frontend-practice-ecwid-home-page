@@ -43,7 +43,9 @@ const Header = () => {
     return (
         <>
         <div className={`click--outside ${openMenu ? "close" : ""}`} onClick={() => setOpenMenu(false)}></div>
-        <header className={`header ${scroll ? "" : "sticky"}`}>
+        <div className={`header--container ${scroll ? "" : "sticky"}`}>
+
+        <header className="header">
             <a href="https://www.ecwid.com/" className="header--logo--link"><img src={header_logo} alt="Ecwid's logo" className="header--logo"/></a>
             <button className="mobile--navigation--button" aria-label="toggle navigation" onClick={() => setOpenMenu(!openMenu)}>
                 <div className={`button--inner--div ${openMenu ? "open" : ""}`}></div>
@@ -141,6 +143,8 @@ const Header = () => {
             </nav>
             <div className={`overlay ${openMenu ? "overlay--open" : ""}`}></div>
         </header>
+
+        </div>
         </>
     )
 }

@@ -1,20 +1,25 @@
+.header--container {
+    position: sticky;
+    top: 0;
+    transition: .2s;
+    overflow-x: clip;
+    background: #fff;
+    
+    &.sticky {
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        transition: .2s;
+    }
+}
+
 header {
     padding: 1rem 1.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background: #fff;
-    position: sticky;
-    top: 0;
     z-index: 99;
-    overflow-x: clip;
     transition: .2s;
 
-    &.sticky {
-        box-shadow: 0 0 10px rgba(0,0,0,.1);
-        transition: .2s;
-    }
 
     .header--logo--link {
         display: flex;
