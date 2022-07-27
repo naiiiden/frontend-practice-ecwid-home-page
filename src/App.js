@@ -4,6 +4,9 @@ import Hero from "./components/Hero";
 import Content from "./components/Content";
 import facebook from "./images/facebook/facebook.webp";
 import instagram from "./images/instagram/instagram.webp";
+import michelle from "./images/people/michelle.webp";
+import pamela from "./images/people/pamela.webp";
+import benjamin from "./images/people/benjamin.webp";
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
           f1Src={facebook}
           f1Desc="Set up and manage a Facebook Store right from your Ecwid dashboard. You’re ready for social selling."
           f2Src={instagram}
+          f2Desc="Let customers order directly from your Instagram posts when you’re powered by Ecwid."
+          tAvatar={michelle}
+          tName="Michelle Jackson"
         />
         <Content 
           hText="Grow faster" 
@@ -27,7 +33,10 @@ const App = () => {
           imgOrText={false}
           f1hText="Google advertising"
           f1Desc="Get your products to the top of the world's most powerful search engine with Ecwid’s automated Google Shopping ads."
-
+          f2hText="Facebook advertising"
+          f2Desc="Create a Facebook campaign in minutes to reach up to two billion active Facebook users."
+          tAvatar={pamela}
+          tName="Pamela Strydom"
         />
         <Content 
           hText="Manage simply" 
@@ -36,6 +45,10 @@ const App = () => {
           imgOrText={false}
           f1hText="Fast and secure payments"
           f1Desc="Choose from Stripe and more than 50 other payment options to accept credit card payments quickly and securely."
+          f2hText="Shipping that works for you"
+          f2Desc="Choose as many shipping rates and carriers as you like to provide you and your customers with the best experience."
+          tAvatar={benjamin}
+          tName="Benjamin Scott"
         />
       </main>
     </div>
