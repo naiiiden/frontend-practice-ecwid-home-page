@@ -1,16 +1,16 @@
-const Content = ({ hText, mainDesc, href, f1Src, f1Desc, f2Src, f1Desc, tAvatar, tName, tDesc, tReviewer, tStars, cIllustration }) => {
+const Content = ({ hText, mainDesc, href, imgOrText, f1Src, f1hText, f1Desc, f2Src, f2hText, f1Desc, tAvatar, tName, tDesc, tReviewer, tStars, cIllustration }) => {
     <section className="content--container">
         <div className="content--text--container">
             <h2 className="content--heading">{hText}</h2>
             <p className="content--description">{mainDesc}</p>
             <a href={href} className="content--link">Learn more →</a>
             <div className="content--features--container">
-                <div className="feature">
-                    <img src={f1Src} alt="" className="content--feature--img"/>
+                <div className="content--feature">
+                    {imgOrText ? <img src={f1Src} alt="" className="content--feature--img"/> : <h3 className="content--feature--heading">{f1hText}</h3>}
                     <p className="content--feature--desc">{f1Desc}</p>
                 </div>
-                <div className="feature">
-                    <img src={f2Src} alt="" className="content--feature--img"/>
+                <div className="content--feature">
+                    {imgOrText ? <img src={f2Src} alt="" className="content--feature--img"/> : <h3 className="content--feature--heading">{f2hText}</h3>}
                     <p className="content--feature--desc">{f2Desc}</p>
                 </div>
             </div>
