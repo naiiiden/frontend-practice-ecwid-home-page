@@ -918,4 +918,65 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
 .content--container .content--testimonial--container .avatar--reviewer--container .testimonial--img--container {
   display: none;
 }
+
+@media screen and (min-width: 600px) {
+  .content--container .text--illustration--container .content--text--container .content--heading {
+    font-size: calc(40px + 28 * (100vw - 600px)/ 423);
+  }
+  .content--container .text--illustration--container .content--text--container .content--description {
+    font-size: calc(16px + 11 * (100vw - 600px)/ 423);
+  }
+  .content--container .text--illustration--container .content--text--container .content--link {
+    font-size: calc(16px + 11 * (100vw - 600px) / 423);
+  }
+  .content--container .text--illustration--container .content--text--container .content--features--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .content--container .text--illustration--container .content--text--container .content--features--container .content--feature {
+    width: 50%;
+  }
+  .content--container .text--illustration--container .content--text--container .content--features--container .content--feature .content--feature--heading {
+    font-size: calc(16px + 11 * (100vw - 600px)/ 423);
+  }
+  .content--container .text--illustration--container .content--text--container .content--features--container .content--feature .content--feature--desc {
+    font-size: calc(14px + 10 * (100vw - 600px)/ 423);
+  }
+  .content--container .content--testimonial--container {
+    padding: 2rem;
+  }
+  .content--container .content--testimonial--container .content--testimonial--desc {
+    font-size: calc(16px + 11 * (100vw - 600px)/ 423);
+  }
+  .content--container .content--testimonial--container .avatar--reviewer--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: unset;
+  }
+  .content--container .content--testimonial--container .avatar--reviewer--container .testimonial--avatar--container .testimonial--name {
+    font-size: calc(14px + 10 * (100vw - 600px)/ 423);
+  }
+  .content--container .content--testimonial--container .avatar--reviewer--container .testimonial--img--container {
+    display: unset;
+  }
+  .content--container .content--testimonial--container .avatar--reviewer--container .testimonial--img--container .testimonial--reviewer {
+    width: 95px;
+  }
+  .content--container .content--testimonial--container .avatar--reviewer--container .testimonial--img--container .testimonial--stars {
+    display: none;
+  }
+}
 /*# sourceMappingURL=general.css.map */
