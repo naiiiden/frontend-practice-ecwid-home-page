@@ -20,7 +20,7 @@ const Content = ({ hText, mainDesc, href, imgOrText, f1Src, f1hText, f1Desc, f2S
                 <img src={cIllustration} alt="" className="content--illustration"/>
             </div>
             <div className="content--testimonial--container">
-                <p>{tDesc}</p>
+                <p className="content--testimonial--desc">{tDesc}</p>
                 <div className="avatar--reviewer--container">
                     <div className="testimonial--avatar--container">
                         <img src={tAvatar} alt="" className="testimonial--avatar"/>

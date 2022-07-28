@@ -1,0 +1,137 @@
+.content--container {
+    padding: 1.75rem 1.25rem;
+
+    &:nth-of-type(3) {
+        .text--illustration--container {
+            .content--text--container {
+                .content--link {
+                    background: rgb(132,243,183);
+                }
+            }
+        }
+
+        .content--testimonial--container {
+            background: rgb(132,243,183);
+        }
+    }
+
+    &:nth-of-type(4) {
+        .text--illustration--container {
+            .content--text--container {
+                .content--link {
+                    background: rgb(73,110,253);
+                    color: #fff;
+                }
+            }
+        }
+
+        .content--testimonial--container {
+            background: rgb(73,110,253);
+            color: #fff;
+        }
+    }
+
+    .text--illustration--container {
+        .content--text--container {
+            .content--heading {
+                font-size: calc(32px + 28 * (100vw - 320px)/ 279);
+                font-family: Volkhov, sans-serif;
+                font-weight: 400;
+                margin-bottom: .5rem;
+            }
+
+            .content--description {
+                font-size: calc(16px + 14 * (100vw - 320px)/ 279);
+                font-family: gotham-book-web;
+            }
+
+            .content--link {
+                font-size: calc(16px + 14 * (100vw - 320px) / 279);
+                font-family: gotham-medium-web;
+                color: rgb(0,0,0);
+                background: rgb(255,198,153);
+                border-radius: 20px;
+                border: 2px solid #000;
+                text-decoration: none;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 48px;
+                width: 100%;
+                margin: 2rem 0;
+            }
+
+            .content--features--container {
+                display: flex;
+                flex-direction: column;
+                gap: 2.5rem;
+
+                .content--feature {
+                    display: flex;
+                    flex-direction: column;
+                    gap: .5rem;
+
+                    .content--feature--img {
+                        width: 88px;
+                        margin-bottom: .5rem;
+                    }
+
+                    .content--feature--heading {
+                        font-size: calc(16px + 14 * (100vw - 320px)/ 279);
+                        font-family: gotham-medium-web;
+                        font-weight: 500;
+                    }
+
+                    .content--feature--desc {
+                        font-size: calc(14px + 12 * (100vw - 320px)/ 279);
+                        font-family: gotham-book-web;
+                    }
+                }
+            }
+        }
+
+        .content--illustration {
+            margin: 2.5rem 0;
+        }
+    }
+
+    .content--testimonial--container {
+        padding: 2rem 1rem;
+        border: 2px solid #000;
+        border-radius: 20px;
+        background: rgb(255,198,153);
+
+        .content--testimonial--desc {
+            font-size: calc(16px + 14 * (100vw - 320px)/ 279);
+            font-family: gotham-book-web;
+        }
+
+        .avatar--reviewer--container {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+
+            .testimonial--avatar--container {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                .testimonial--avatar {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                .testimonial--name {
+                    font-size: calc(14px + 12 * (100vw - 320px)/ 279);
+                    font-family: gotham-medium-web;
+                    font-weight: 500;
+                }
+            }
+
+            .testimonial--img--container {
+                display: none;
+            }
+        }
+    }
+}
