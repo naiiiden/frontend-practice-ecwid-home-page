@@ -5,7 +5,8 @@
         "general.scss",
         "components/_header.scss",
         "components/_hero.scss",
-        "components/_content.scss"
+        "components/_content.scss",
+        "components/_world.scss"
     ],
     "names": [],
     "file": "general.css"

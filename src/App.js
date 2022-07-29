@@ -14,6 +14,7 @@ import stars_white from "./images/stars/stars--white.webp";
 import content_illustration1 from "./images/illustrations/content-illustration-1.webp";
 import content_illustration2 from "./images/illustrations/content-illustration-2.webp";
 import content_illustration3 from "./images/illustrations/content-illustration-3.webp";
+import World from "./components/World";
 
 const App = () => {
   return (
@@ -69,6 +70,7 @@ const App = () => {
           tStars={stars_white}
           cIllustration={content_illustration3}
         />
+        <World/>
       </main>
     </div>
   )
