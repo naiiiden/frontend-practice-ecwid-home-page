@@ -211,3 +211,85 @@
         padding: 2rem 3.5rem;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .content--container {
+        padding: 4rem 3.5rem;
+
+        .text--illustration--container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+
+            .content--text--container {
+                width: 50%;
+
+                .content--heading {
+                    font-size: 3rem;
+                }
+
+                .content--description {
+                    font-size: 1rem;
+                }
+
+                .content--link {
+                    font-size: 1rem;
+                }
+
+                .content--features--container {
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .content--feature {
+                        width: 50%;
+
+                        .content--feature--heading {
+                            font-size: 1.125rem;
+                        }
+    
+                        .content--feature--desc {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+
+            .content--illustration {
+                width: 50%;
+                margin: unset;
+            }
+        }
+
+        .content--testimonial--container {
+            margin-top: 2rem;
+
+            .content--testimonial--desc {
+                font-size: 1rem;
+            }
+    
+            .avatar--reviewer--container {
+                .testimonial--avatar--container {
+                    .testimonial--name {
+                        font-size: .875rem;
+                    }
+                }
+    
+                .testimonial--img--container {
+                    display: flex;
+                    align-items: baseline;
+                    gap: 1rem;
+
+                    .testimonial--reviewer {
+                        width: 95px;
+                    }
+
+                    .testimonial--stars {
+                        display: unset;
+                        width: 110px;
+                    }
+                }
+            }
+        }
+    }
+}
