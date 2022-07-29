@@ -1068,4 +1068,41 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     padding: 4rem 4.5rem;
   }
 }
+
+@media screen and (min-width: 1366px) {
+  .content--container .text--illustration--container .content--text--container {
+    width: 50%;
+  }
+  .content--container .text--illustration--container .content--text--container .content--heading {
+    font-size: 4rem;
+  }
+  .content--container .text--illustration--container .content--text--container .content--description {
+    font-size: 1.125rem;
+  }
+  .content--container .text--illustration--container .content--text--container .content--link {
+    font-size: 1.125rem;
+  }
+  .content--container .text--illustration--container .content--text--container .content--features--container .content--feature {
+    width: 50%;
+  }
+  .content--container .text--illustration--container .content--text--container .content--features--container .content--feature .content--feature--heading {
+    font-size: 1.25rem;
+  }
+  .content--container .text--illustration--container .content--text--container .content--features--container .content--feature .content--feature--desc {
+    font-size: 1.125rem;
+  }
+  .content--container .text--illustration--container .content--illustration {
+    width: 50%;
+    margin: unset;
+  }
+  .content--container .content--testimonial--container {
+    margin-top: unset;
+  }
+  .content--container .content--testimonial--container .content--testimonial--desc {
+    font-size: 1.125rem;
+  }
+  .content--container .content--testimonial--container .avatar--reviewer--container .testimonial--avatar--container .testimonial--name {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */

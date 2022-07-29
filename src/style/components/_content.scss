@@ -299,3 +299,60 @@
         padding: 4rem 4.5rem;
     }
 }
+
+@media screen and (min-width: 1366px) {
+    .content--container {
+        .text--illustration--container {
+            .content--text--container {
+                width: 50%;
+
+                .content--heading {
+                    font-size: 4rem;
+                }
+
+                .content--description {
+                    font-size: 1.125rem;
+                }
+
+                .content--link {
+                    font-size: 1.125rem;
+                }
+
+                .content--features--container {
+                    .content--feature {
+                        width: 50%;
+
+                        .content--feature--heading {
+                            font-size: 1.25rem;
+                        }
+    
+                        .content--feature--desc {
+                            font-size: 1.125rem;
+                        }
+                    }
+                }
+            }
+
+            .content--illustration {
+                width: 50%;
+                margin: unset;
+            }
+        }
+
+        .content--testimonial--container {
+            margin-top: unset;
+
+            .content--testimonial--desc {
+                font-size: 1.125rem;
+            }
+    
+            .avatar--reviewer--container {
+                .testimonial--avatar--container {
+                    .testimonial--name {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
