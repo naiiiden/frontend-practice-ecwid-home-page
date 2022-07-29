@@ -351,12 +351,14 @@
 
 @media screen and (min-width: 1280px) {
     .content--container {
-        padding: 4rem 4.5rem;
+        padding: 4.5rem 4.5rem;
     }
 }
 
 @media screen and (min-width: 1366px) {
     .content--container {
+        padding: 5rem 4.5rem;
+
         .text--illustration--container {
             .content--text--container {
                 width: 50%;
@@ -414,6 +416,7 @@
 
 @media screen and (min-width: 1600px) {
     .content--container {
+        padding: 5.5rem 4.5rem;
         max-width: 1600px;
         margin: auto;
     }
