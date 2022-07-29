@@ -1062,4 +1062,10 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     width: 110px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .content--container {
+    padding: 4rem 4.5rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */
