@@ -1153,4 +1153,58 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     margin: auto;
   }
 }
+
+.world--section {
+  margin: 3rem 1.25rem;
+  padding: 2rem 1rem;
+  border: 2px solid #000;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.world--section .text--container .world--heading {
+  font-size: calc(32px + 28 * (100vw - 320px)/ 279);
+  font-family: Volkhov, sans-serif;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+
+.world--section .text--container .world--desc {
+  font-size: calc(16px + 14 * (100vw - 320px)/ 279);
+  font-family: gotham-book-web;
+}
+
+.world--section .numbers--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  background: url("../images/illustrations/atlas.png");
+}
+
+.world--section .numbers--container .number--subcontainer .number {
+  font-size: 4rem;
+  font-family: gotham-medium-web, sans-serif;
+  font-weight: 400;
+}
+
+.world--section .numbers--container .number--subcontainer .small-text {
+  font-size: calc(14px + 12 * (100vw - 320px)/ 279);
+  font-family: gotham-book-web;
+}
 /*# sourceMappingURL=general.css.map */
