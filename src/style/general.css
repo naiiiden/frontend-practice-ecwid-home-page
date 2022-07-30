@@ -1236,6 +1236,20 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   .world--section {
     padding: 2rem;
   }
+  .world--section .shape:nth-of-type(1) {
+    right: 1.5rem;
+    top: -1.5rem;
+    z-index: 0;
+  }
+  .world--section .shape:nth-of-type(2) {
+    bottom: -1.5rem;
+    right: 9rem;
+  }
+  .world--section .shape:nth-of-type(3) {
+    left: 8rem;
+    top: 8rem;
+    z-index: -1;
+  }
   .world--section .text--container .world--heading {
     font-size: calc(40px + 28 * (100vw - 600px)/ 423);
   }
