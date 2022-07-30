@@ -1231,4 +1231,10 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     font-size: calc(14px + 10 * (100vw - 600px)/ 423);
   }
 }
+
+@media screen and (min-width: 768px) {
+  .world--section {
+    margin: 3rem 3.5rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */
