@@ -121,3 +121,25 @@
         margin: 4rem 4.5rem;
     }
 }
+
+@media screen and (min-width: 1366px) {
+    .world--section {
+        margin: 4.5rem;
+
+        .text--container {
+            width: 30%;
+        }
+
+        .numbers--container {
+            .number--subcontainer {
+                .number {
+                    font-size: 6rem;
+                }
+
+                .small-text {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

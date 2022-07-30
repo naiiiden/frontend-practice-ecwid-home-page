@@ -1277,4 +1277,19 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     margin: 4rem 4.5rem;
   }
 }
+
+@media screen and (min-width: 1366px) {
+  .world--section {
+    margin: 4.5rem;
+  }
+  .world--section .text--container {
+    width: 30%;
+  }
+  .world--section .numbers--container .number--subcontainer .number {
+    font-size: 6rem;
+  }
+  .world--section .numbers--container .number--subcontainer .small-text {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */
