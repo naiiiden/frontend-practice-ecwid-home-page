@@ -1172,6 +1172,10 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
 
 .world--section .shape {
   position: absolute;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .world--section .shape:nth-of-type(1) {
