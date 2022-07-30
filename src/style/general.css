@@ -1288,6 +1288,25 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .world--section .shape {
+    position: absolute;
+  }
+  .world--section .shape:nth-of-type(1) {
+    width: 50px;
+    right: 3.5rem;
+    top: -1.5rem;
+    z-index: 0;
+  }
+  .world--section .shape:nth-of-type(2) {
+    width: 35px;
+    bottom: -1.5rem;
+    right: 10rem;
+  }
+  .world--section .shape:nth-of-type(3) {
+    width: 35px;
+    left: 25rem;
+    top: 3rem;
+  }
   .world--section .text--container {
     width: 35%;
   }
