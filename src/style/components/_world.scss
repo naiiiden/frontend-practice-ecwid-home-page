@@ -43,3 +43,31 @@
         }
     }
 }
+
+@media screen and (min-width: 600px) {
+    .world--section {
+        .text--container {
+            .world--heading {
+                font-size: calc(40px + 28 * (100vw - 600px)/ 423);
+            }
+
+            .world--desc {
+                font-size: calc(14px + 10 * (100vw - 600px)/ 423);            
+            }
+        }
+
+        .numbers--container {
+            flex-direction: row;
+            justify-content: space-between;
+
+            .number--subcontainer {
+                width: 33%;
+
+                .small-text {
+                    font-size: calc(14px + 10 * (100vw - 600px)/ 423);
+                }
+
+            }
+        }
+    }
+}

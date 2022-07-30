@@ -1207,4 +1207,28 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   font-size: calc(14px + 12 * (100vw - 320px)/ 279);
   font-family: gotham-book-web;
 }
+
+@media screen and (min-width: 600px) {
+  .world--section .text--container .world--heading {
+    font-size: calc(40px + 28 * (100vw - 600px)/ 423);
+  }
+  .world--section .text--container .world--desc {
+    font-size: calc(14px + 10 * (100vw - 600px)/ 423);
+  }
+  .world--section .numbers--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .world--section .numbers--container .number--subcontainer {
+    width: 33%;
+  }
+  .world--section .numbers--container .number--subcontainer .small-text {
+    font-size: calc(14px + 10 * (100vw - 600px)/ 423);
+  }
+}
 /*# sourceMappingURL=general.css.map */
