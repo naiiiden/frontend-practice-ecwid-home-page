@@ -1237,4 +1237,35 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     margin: 3rem 3.5rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .world--section {
+    margin: 4rem 3.5rem;
+    padding: 3rem 2rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .world--section .text--container {
+    width: 35%;
+  }
+  .world--section .text--container .world--heading {
+    font-size: 3rem;
+  }
+  .world--section .text--container .world--desc {
+    font-size: 1rem;
+  }
+  .world--section .numbers--container {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .world--section .numbers--container .number--subcontainer .number {
+    font-size: 5rem;
+  }
+  .world--section .numbers--container .number--subcontainer .small-text {
+    font-size: .875rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */

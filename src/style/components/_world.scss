@@ -78,3 +78,39 @@
 
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .world--section {
+        margin: 4rem 3.5rem;
+        padding: 3rem 2rem;
+        flex-direction: row;
+
+        .text--container {
+            width: 35%;
+
+            .world--heading {
+                font-size: 3rem;
+
+            }
+
+            .world--desc {
+                font-size: 1rem;
+            }
+        }
+
+        .numbers--container {
+            flex-grow: 1;
+
+            .number--subcontainer {
+                .number {
+                    font-size: 5rem;
+                }
+
+                .small-text {
+                    font-size: .875rem;
+                }
+            }
+
+        }
+    }
+}
