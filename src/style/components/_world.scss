@@ -46,6 +46,8 @@
 
 @media screen and (min-width: 600px) {
     .world--section {
+        padding: 2rem;
+
         .text--container {
             .world--heading {
                 font-size: calc(40px + 28 * (100vw - 600px)/ 423);
@@ -75,7 +77,6 @@
 @media screen and (min-width: 768px) {
     .world--section {
         margin: 3rem 3.5rem;
-
     }
 }
 

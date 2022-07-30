@@ -1209,6 +1209,9 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
 }
 
 @media screen and (min-width: 600px) {
+  .world--section {
+    padding: 2rem;
+  }
   .world--section .text--container .world--heading {
     font-size: calc(40px + 28 * (100vw - 600px)/ 423);
   }
