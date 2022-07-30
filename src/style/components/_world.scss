@@ -143,3 +143,10 @@
         }
     }
 }
+
+@media screen and (min-width: 1600px) {
+    .big-width {
+        max-width: 1600px;
+        margin: auto;
+    }
+}

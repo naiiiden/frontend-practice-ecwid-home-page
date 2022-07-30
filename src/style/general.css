@@ -1292,4 +1292,11 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     font-size: 1rem;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .big-width {
+    max-width: 1600px;
+    margin: auto;
+  }
+}
 /*# sourceMappingURL=general.css.map */
