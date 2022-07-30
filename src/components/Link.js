@@ -1,11 +1,11 @@
-const Link = ({ src, hText, pText, href1, href2 }) => {
+const Link = ({ src, hText, pText, href }) => {
     return (
-        <a href={href1} className="link--main">
+        <a href={href} className="link--main">
             <section className="link--container">
                 <img src={src} alt="" className="link--img"/>
                 <h3 className="link--heading">{hText}</h3>
                 <p className="link--desc">{pText}</p>
-                <a href={href2} className="link--sub">Learn more →</a>
+                <a href={href} className="link--sub">Learn more →</a>
             </section>
         </a>
     )

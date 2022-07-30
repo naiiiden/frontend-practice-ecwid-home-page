@@ -15,6 +15,11 @@ import content_illustration1 from "./images/illustrations/content-illustration-1
 import content_illustration2 from "./images/illustrations/content-illustration-2.webp";
 import content_illustration3 from "./images/illustrations/content-illustration-3.webp";
 import World from "./components/World";
+import Link from "./components/Link";
+import link1_image from "../src/images/rectangles/rectangle.webp";
+import link2_image from "../src/images/rectangles/rectangle--1.webp";
+import link3_image from "../src/images/rectangles/rectangle--2.webp";
+
 
 const App = () => {
   return (
@@ -71,6 +76,11 @@ const App = () => {
           cIllustration={content_illustration3}
         />
         <World/>
+        <div className="link--component--container">
+          <Link src={link1_image} href="https://support.ecwid.com/hc/en-us"/>
+          <Link src={link2_image} href="https://www.ecwid.com/apps"/>
+          <Link src={link3_image} href="https://www.ecwid.com/ecwid-mobile"/>
+        </div>
       </main>
     </div>
   )
