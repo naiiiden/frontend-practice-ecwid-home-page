@@ -77,9 +77,9 @@ const App = () => {
         />
         <World/>
         <div className="link--component--container">
-          <Link src={link1_image} href="https://support.ecwid.com/hc/en-us"/>
-          <Link src={link2_image} href="https://www.ecwid.com/apps"/>
-          <Link src={link3_image} href="https://www.ecwid.com/ecwid-mobile"/>
+          <Link src={link1_image} href="https://support.ecwid.com/hc/en-us" hText="Live Support" pText="Expert support, whenever you need it."/>
+          <Link src={link2_image} href="https://www.ecwid.com/apps" hText="Ecwid App Market" pText="Take your store to the next level with new tools and apps from our Ecwid partners."/>
+          <Link src={link3_image} href="https://www.ecwid.com/ecwid-mobile" hText="Manage on Mobile" pText="Manage business on the go with the Ecwid Mobile App."/>
         </div>
       </main>
     </div>
