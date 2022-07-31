@@ -1,3 +1,3 @@
 # Frontend Practice | Ecwid Home Page
 
-WIP, test 
+WIP, test, test2
