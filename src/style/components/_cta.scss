@@ -70,6 +70,23 @@
         justify-content: space-evenly;
         align-items: center;
         text-align: unset;
+        position: relative;
+
+        .shape {
+            display: unset;
+            position: absolute;
+            width: 52px;
+            right: 1.75rem;
+            bottom: 1.5rem;
+
+            &:nth-of-type(2) {
+                bottom: unset;
+                right: -1.25rem;
+                margin-top: -1.25rem;
+                width: 73px;
+                height: 42px;
+            }
+        }
 
         .cta--subcontainer {
             text-align: center;
