@@ -1230,4 +1230,18 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   color: #7f7f7f;
   font-size: calc(14px + 12 * (100vw - 320px) / 279);
   font-family: gotham-book-web;
+}
+
+@media screen and (min-width: 600px) {
+  .cta--container .cta--heading {
+    font-size: calc(40px + 28 * (100vw - 600px) / 423);
+  }
+  .cta--container .cta--link {
+    font-size: calc(16px + 11 * (100vw - 600px) / 423);
+    width: 340px;
+    margin: 2rem 0 1rem 0;
+  }
+  .cta--container .cta--p {
+    font-size: calc(14px + 10 * (100vw - 600px) / 423);
+  }
 }/*# sourceMappingURL=general.css.map */
