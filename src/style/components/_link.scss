@@ -72,3 +72,33 @@
         padding: 2rem 3.5rem;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .link--component--container {
+        flex-direction: row;
+        gap: unset;
+        justify-content: space-between;
+
+        .link--main {
+            padding: 2rem;
+            width: 30%;
+
+            .link--container {
+                .link--heading {
+                    font-size: calc(6px + 18 * (100vw - 320px)/ 1046);
+                }
+
+                .link--desc {
+                    font-size: calc(12px + 4 * (100vw - 1024px)/ 341);
+                    margin-bottom: unset;
+                    height: 90px;
+                }
+
+                .link--sub {
+                    font-size: calc(4px + 14 * (100vw - 320px)/ 1046);
+                    margin-top: 3rem;
+                }
+            }
+        }
+    }
+}
