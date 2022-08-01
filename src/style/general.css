@@ -1249,4 +1249,31 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   .cta--container {
     padding: 1.75rem 3.5rem;
   }
+}
+@media screen and (min-width: 1024px) {
+  .cta--container {
+    padding: 3.5rem;
+    margin: 2rem 3.5rem;
+    border: 2px solid #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: unset;
+  }
+  .cta--container .cta--subcontainer {
+    text-align: center;
+  }
+  .cta--container .cta--heading {
+    font-size: calc(9px + 31 * (100vw - 320px) / 1046);
+    width: 50%;
+  }
+  .cta--container .cta--link {
+    font-size: calc(4px + 12 * (100vw - 320px) / 1046);
+    height: 48px;
+    margin: 0 0 1rem 0;
+  }
+  .cta--container .cta--p {
+    font-size: calc(3px + 11 * (100vw - 320px) / 1046);
+  }
 }/*# sourceMappingURL=general.css.map */
