@@ -1194,4 +1194,10 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   .link--component--container .link--main .link--container .link--sub {
     font-size: 1.125rem;
   }
+}
+@media screen and (min-width: 1600px) {
+  .link--component--container {
+    max-width: 1600px;
+    margin: auto;
+  }
 }/*# sourceMappingURL=general.css.map */
