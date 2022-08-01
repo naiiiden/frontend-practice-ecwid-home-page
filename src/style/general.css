@@ -1200,4 +1200,34 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     max-width: 1600px;
     margin: auto;
   }
+}
+.cta--container {
+  margin: 1.75rem 0 1rem 0;
+  padding: 1.75rem 1.25rem;
+  text-align: center;
+}
+.cta--container .cta--heading {
+  font-size: calc(32px + 28 * (100vw - 320px) / 279);
+  font-family: Volkhov, sans-serif;
+  font-weight: 400;
+}
+.cta--container .cta--link {
+  color: #000;
+  font-size: calc(16px + 14 * (100vw - 320px) / 279);
+  font-family: gotham-medium-web;
+  background: rgb(250, 224, 83);
+  border-radius: 20px;
+  border: 2px solid #000;
+  height: 56px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+  margin: 3rem 0 1rem 0;
+}
+.cta--container .cta--p {
+  color: #7f7f7f;
+  font-size: calc(14px + 12 * (100vw - 320px) / 279);
+  font-family: gotham-book-web;
 }/*# sourceMappingURL=general.css.map */
