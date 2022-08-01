@@ -1276,4 +1276,9 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   .cta--container .cta--p {
     font-size: calc(3px + 11 * (100vw - 320px) / 1046);
   }
+}
+@media screen and (min-width: 1280px) {
+  .cta--container {
+    margin: 3.5rem 4.5rem;
+  }
 }/*# sourceMappingURL=general.css.map */
