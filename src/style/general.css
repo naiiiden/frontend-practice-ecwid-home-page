@@ -1093,4 +1093,43 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     max-width: 1600px;
     margin: auto;
   }
+}
+.link--component--container {
+  padding: 1.75rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.link--component--container .link--main {
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: #000;
+}
+.link--component--container .link--main .link--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.link--component--container .link--main .link--container .link--img {
+  width: 64px;
+  margin-bottom: 2rem;
+}
+.link--component--container .link--main .link--container .link--heading {
+  font-family: gotham-medium-web;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  font-size: calc(16px + 14 * (100vw - 320px) / 279);
+}
+.link--component--container .link--main .link--container .link--desc {
+  font-family: gotham-book-web;
+  margin-bottom: 5rem;
+  font-size: calc(14px + 12 * (100vw - 320px) / 279);
+}
+.link--component--container .link--main .link--container .link--sub {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: calc(18px + 16 * (100vw - 320px) / 279);
 }/*# sourceMappingURL=general.css.map */
