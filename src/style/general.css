@@ -1169,7 +1169,7 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   .link--component--container .link--main .link--container .link--desc {
     font-size: calc(12px + 4 * (100vw - 1024px) / 341);
     margin-bottom: unset;
-    height: 90px;
+    height: 50px;
   }
   .link--component--container .link--main .link--container .link--sub {
     font-size: calc(4px + 14 * (100vw - 320px) / 1046);
@@ -1179,5 +1179,19 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
 @media screen and (min-width: 1280px) {
   .link--component--container {
     padding: 3rem 4.5rem;
+  }
+  .link--component--container .link--main .link--container .link--sub {
+    margin-top: 4rem;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .link--component--container .link--main .link--container .link--heading {
+    font-size: 1.5rem;
+  }
+  .link--component--container .link--main .link--container .link--desc {
+    font-size: 1rem;
+  }
+  .link--component--container .link--main .link--container .link--sub {
+    font-size: 1.125rem;
   }
 }/*# sourceMappingURL=general.css.map */
