@@ -4,6 +4,7 @@
     transition: .2s;
     overflow-x: clip;
     background: #fff;
+    z-index: 99;
     
     &.sticky {
         box-shadow: 0 0 10px rgba(0,0,0,.1);
