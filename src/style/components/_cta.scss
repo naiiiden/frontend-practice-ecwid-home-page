@@ -3,6 +3,10 @@
     padding: 1.75rem 1.25rem;
     text-align: center;
 
+    .shape {
+        display: none;
+    }
+
     .cta--heading {
         font-size: calc(32px + 28 * (100vw - 320px)/ 279);
         font-family: Volkhov, sans-serif;

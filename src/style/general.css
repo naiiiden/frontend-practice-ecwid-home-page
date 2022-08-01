@@ -1206,6 +1206,9 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   padding: 1.75rem 1.25rem;
   text-align: center;
 }
+.cta--container .shape {
+  display: none;
+}
 .cta--container .cta--heading {
   font-size: calc(32px + 28 * (100vw - 320px) / 279);
   font-family: Volkhov, sans-serif;
