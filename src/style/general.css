@@ -1244,4 +1244,9 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   .cta--container .cta--p {
     font-size: calc(14px + 10 * (100vw - 600px) / 423);
   }
+}
+@media screen and (min-width: 768px) {
+  .cta--container {
+    padding: 1.75rem 3.5rem;
+  }
 }/*# sourceMappingURL=general.css.map */
