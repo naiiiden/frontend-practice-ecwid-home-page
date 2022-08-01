@@ -19,6 +19,7 @@ import Link from "./components/Link";
 import link1_image from "../src/images/rectangles/rectangle.webp";
 import link2_image from "../src/images/rectangles/rectangle--1.webp";
 import link3_image from "../src/images/rectangles/rectangle--2.webp";
+import Cta from "./components/Cta";
 
 
 const App = () => {
@@ -81,6 +82,7 @@ const App = () => {
           <Link src={link2_image} href="https://www.ecwid.com/apps" hText="Ecwid App Market" pText="Take your store to the next level with new tools and apps from our Ecwid partners."/>
           <Link src={link3_image} href="https://www.ecwid.com/ecwid-mobile" hText="Manage on Mobile" pText="Manage business on the go with the Ecwid Mobile App."/>
         </div>
+        <Cta/>
       </main>
     </div>
   )
