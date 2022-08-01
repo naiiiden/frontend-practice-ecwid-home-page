@@ -44,3 +44,25 @@
         }
     }
 }
+
+@media screen and (min-width: 600px) {
+    .link--component--container {
+        .link--main {
+            padding: 1.75rem;
+
+            .link--container {
+                .link--heading {
+                    font-size: calc(24px + 17 * (100vw - 600px)/ 423);
+                }
+
+                .link--desc {
+                    font-size: calc(16px + 11 * (100vw - 600px)/ 423);
+                }
+
+                .link--sub {
+                    font-size: calc(18px + 13 * (100vw - 600px)/ 423);
+                }
+            }
+        }
+    }
+}

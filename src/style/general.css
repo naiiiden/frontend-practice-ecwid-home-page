@@ -1132,4 +1132,19 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   color: #000;
   font-weight: 700;
   font-size: calc(18px + 16 * (100vw - 320px) / 279);
+}
+
+@media screen and (min-width: 600px) {
+  .link--component--container .link--main {
+    padding: 1.75rem;
+  }
+  .link--component--container .link--main .link--container .link--heading {
+    font-size: calc(24px + 17 * (100vw - 600px) / 423);
+  }
+  .link--component--container .link--main .link--container .link--desc {
+    font-size: calc(16px + 11 * (100vw - 600px) / 423);
+  }
+  .link--component--container .link--main .link--container .link--sub {
+    font-size: calc(18px + 13 * (100vw - 600px) / 423);
+  }
 }/*# sourceMappingURL=general.css.map */
