@@ -1281,4 +1281,16 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   .cta--container {
     margin: 3.5rem 4.5rem;
   }
+}
+@media screen and (min-width: 1366px) {
+  .cta--container .cta--heading {
+    font-size: 2.5rem;
+  }
+  .cta--container .cta--link {
+    font-size: 1rem;
+    height: 64px;
+  }
+  .cta--container .cta--p {
+    font-size: 0.875rem;
+  }
 }/*# sourceMappingURL=general.css.map */
