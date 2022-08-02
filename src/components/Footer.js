@@ -145,10 +145,12 @@ const Footer = () => {
                         <span>GLOBAL</span>
                     </button>
                 </li>
+                <div className="footer--separator"></div>
                 <li><a href="https://www.lightspeedhq.com/legal/data-processing-agreement/">DPA</a></li>
                 <li><a href="https://www.lightspeedhq.com/legal/lightspeed-service-agreement/">Terms of Service</a></li>
                 <li><a href="https://www.ecwid.com/copyright-policy">Copyright Policy</a></li>
                 <li><p>© 2022 Ecwid by Lightspeed</p></li>
+                <div className="footer--separator"></div>
             </ul>
         </footer>
     )
