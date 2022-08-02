@@ -5,7 +5,7 @@ const Link = ({ src, hText, pText, href }) => {
                 <img src={src} alt="" className="link--img"/>
                 <h3 className="link--heading">{hText}</h3>
                 <p className="link--desc">{pText}</p>
-                <a href={href} className="link--sub">Learn more →</a>
+                <p className="link--sub">Learn more →</p>
             </section>
         </a>
     )
