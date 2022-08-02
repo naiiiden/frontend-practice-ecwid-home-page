@@ -16,7 +16,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="logo--nav--container">
-                <img src={footer_logo} alt="Ecwid's logo" className="footer--logo"/>
+                <a href="https://www.ecwid.com/" aria-label="Go to our homepage"><img src={footer_logo} alt="Ecwid's logo" className="footer--logo"/></a>
                 <nav className="footer--nav">
                     <ul className="footer--nav--ul">
                         <li>
