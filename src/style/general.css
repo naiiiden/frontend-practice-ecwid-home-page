@@ -1346,6 +1346,10 @@ footer .footer--nav--ul li ul {
   list-style-type: none;
   display: none;
 }
+footer .footer--nav--ul li ul.show {
+  display: flex;
+  flex-direction: column;
+}
 footer .search--socials--container {
   margin-top: 3rem;
   display: flex;

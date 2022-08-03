@@ -13,6 +13,15 @@ import youtube from "../images/icons/icon-youtube.svg";
 import global from "../images/icons/icon-global.svg";
 
 const Footer = () => {
+    const [sellOnline, setSellOnline] = useState(false);
+    const [product, setProduct] = useState(false);
+    const [business, setBusiness] = useState(false);
+    const [partners, setPartners] = useState(false);
+    const [company, setCompany] = useState(false);
+    const [support, setSupport] = useState(false);
+    const [resources, setResources] = useState(false);
+    const [blog, setBlog] = useState(false);
+
     return (
         <footer>
             <div className="logo--nav--container">
@@ -20,8 +29,8 @@ const Footer = () => {
                 <nav className="footer--nav">
                     <ul className="footer--nav--ul">
                         <li>
-                            <span role="button">SELL ONLINE <img src={arrow_right} alt=""/></span>
-                            <ul>
+                            <span role="button" onClick={() => setSellOnline(!sellOnline)}>SELL ONLINE <img src={arrow_right} alt=""/></span>
+                            <ul className={`dropdown ${sellOnline ? "show" : ""}`}>
                                 <li><a href="https://www.ecwid.com/sell-everywhere">Sell Everywhere</a></li>
                                 <li><a href="https://www.ecwid.com/social-selling">Sell on Social</a></li>
                                 <li><a href="https://www.ecwid.com/instagram">Sell on Instagram</a></li>
@@ -35,8 +44,8 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <span role="button">PRODUCT <img src={arrow_right} alt=""/></span>
-                            <ul>
+                            <span role="button" onClick={() => setProduct(!product)}>PRODUCT <img src={arrow_right} alt=""/></span>
+                            <ul className={`dropdown ${product ? "show" : ""}`}>
                                 <li><a href="https://www.ecwid.com/features">Features</a></li>
                                 <li><a href="https://www.ecwid.com/pricing">Pricing</a></li>
                                 <li><a href="https://www.ecwid.com/watchdemo/">Watch Demo</a></li>
@@ -50,8 +59,8 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <span role="button">FOR YOUR BUSINESS <img src={arrow_right} alt=""/></span>
-                            <ul>
+                            <span role="button" onClick={() => setBusiness(!business)}>FOR YOUR BUSINESS <img src={arrow_right} alt=""/></span>
+                            <ul className={`dropdown ${business ? "show" : ""}`}>
                                 <li><a href="https://www.ecwid.com/solutions">Business Solutions</a></li>
                                 <li><a href="https://www.ecwid.com/easy-ecommerce">Ecommerce Website</a></li>
                                 <li><a href="https://www.ecwid.com/wordpress-ecommerce">WordPress Ecommerce</a></li>
@@ -64,8 +73,8 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <span role="button">PARTNERS <img src={arrow_right} alt=""/></span>
-                            <ul>
+                            <span role="button" onClick={() => setPartners(!partners)}>PARTNERS <img src={arrow_right} alt=""/></span>
+                            <ul className={`dropdown ${partners ? "show" : ""}`}>
                                 <li><a href="https://www.ecwid.com/partners/reseller">Reseller Program</a></li>
                                 <li><a href="https://www.ecwid.com/partners/white-label">White Label Solutions</a></li>
                                 <li><a href="https://www.ecwid.com/partners/referral">Referral Program</a></li>
@@ -74,8 +83,8 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <span role="button">COMPANY <img src={arrow_right} alt=""/></span>
-                            <ul>
+                            <span role="button" onClick={() => setCompany(!company)}>COMPANY <img src={arrow_right} alt=""/></span>
+                            <ul className={`dropdown ${company ? "show" : ""}`}>
                                 <li><a href="https://www.ecwid.com/about">About Us</a></li>
                                 <li><a href="https://www.ecwid.com/blog">Ecwid Blog</a></li>
                                 <li><a href="https://www.ecwid.com/press">Press</a></li>
@@ -84,8 +93,8 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <span role="button">SUPPORT <img src={arrow_right} alt=""/></span>
-                            <ul>
+                            <span role="button" onClick={() => setSupport(!support)}>SUPPORT <img src={arrow_right} alt=""/></span>
+                            <ul className={`dropdown ${support ? "show" : ""}`}>
                                 <li><a href="https://support.ecwid.com/">Help Center</a></li>
                                 <li><a href="https://support.ecwid.com/hc/en-us/articles/4405020488466">Product Updates</a></li>
                                 <li><a href="https://developers.ecwid.com/">App developers</a></li>
@@ -98,8 +107,8 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <span role="button">RESOURCES <img src={arrow_right} alt=""/></span>
-                            <ul>
+                            <span role="button" onClick={() => setResources(!resources)}>RESOURCES <img src={arrow_right} alt=""/></span>
+                            <ul className={`dropdown ${resources ? "show" : ""}`}>
                                 <li><a href="https://www.ecwid.com/products-to-sell">Products to sell</a></li>
                                 <li><a href="https://www.ecwid.com/sell-online">How to Sell Online</a></li>
                                 <li><a href="https://www.ecwid.com/online-store">Create an Online Store</a></li>
@@ -109,8 +118,8 @@ const Footer = () => {
                             </ul>
                         </li>
                         <li>
-                            <span role="button">LATEST BLOG <img src={arrow_right} alt=""/></span>
-                            <ul>
+                            <span role="button" onClick={() => setBlog(!blog)}>LATEST BLOG <img src={arrow_right} alt=""/></span>
+                            <ul className={`dropdown ${blog ? "show" : ""}`}>
                                 <li><a href="https://www.ecwid.com/blog/overcoming-the-fear-of-creating-content.html">Ecommerce Content 101: Overcoming the Fear of Creating Content</a></li>
                                 <li><a href="https://www.ecwid.com/blog/how-this-store-saved-hundreds-of-work-hours.html">How This Store with a Large Catalog Saved Hundreds of Work Hours</a></li>
                             </ul>

@@ -29,6 +29,11 @@ footer {
             ul {
                 list-style-type: none;
                 display: none;
+
+                &.show {
+                    display: flex;
+                    flex-direction: column;
+                }
             }
         }
 
