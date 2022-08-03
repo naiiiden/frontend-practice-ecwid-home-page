@@ -1342,6 +1342,13 @@ footer .footer--nav--ul li span {
   font-family: gotham-medium-web;
   font-weight: 500;
 }
+footer .footer--nav--ul li span img {
+  transition: 0.2s;
+}
+footer .footer--nav--ul li span img.rotate--img {
+  transform: rotate(90deg);
+  transition: 0.2s;
+}
 footer .footer--nav--ul li ul {
   display: flex;
   flex-direction: column;

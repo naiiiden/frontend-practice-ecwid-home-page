@@ -24,6 +24,15 @@ footer {
                 line-height: 1.5rem;
                 font-family: gotham-medium-web;
                 font-weight: 500;
+
+                img {
+                    transition: .2s;
+
+                    &.rotate--img {
+                        transform: rotate(90deg);
+                        transition: .2s;
+                    }
+                }
             }
 
             ul {
