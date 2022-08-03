@@ -29,10 +29,18 @@ footer {
             ul {
                 list-style-type: none;
                 display: none;
+                margin-top: .75rem;
 
                 &.show {
                     display: flex;
                     flex-direction: column;
+                }
+
+                a {
+                    font-family: gotham-book-web;
+                    font-size: .875rem;
+                    color: #fff;
+                    text-decoration: none;
                 }
             }
         }

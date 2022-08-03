@@ -1345,10 +1345,17 @@ footer .footer--nav--ul li span {
 footer .footer--nav--ul li ul {
   list-style-type: none;
   display: none;
+  margin-top: 0.75rem;
 }
 footer .footer--nav--ul li ul.show {
   display: flex;
   flex-direction: column;
+}
+footer .footer--nav--ul li ul a {
+  font-family: gotham-book-web;
+  font-size: 0.875rem;
+  color: #fff;
+  text-decoration: none;
 }
 footer .search--socials--container {
   margin-top: 3rem;
