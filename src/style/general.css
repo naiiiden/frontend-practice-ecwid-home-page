@@ -1343,13 +1343,22 @@ footer .footer--nav--ul li span {
   font-weight: 500;
 }
 footer .footer--nav--ul li ul {
-  list-style-type: none;
-  display: none;
-  margin-top: 0.75rem;
-}
-footer .footer--nav--ul li ul.show {
   display: flex;
   flex-direction: column;
+  list-style-type: none;
+  position: relative;
+  margin-top: 0.75rem;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: 0.3s, max-height 0.3s, opacity 0.2s;
+}
+footer .footer--nav--ul li ul.show {
+  opacity: 1;
+  visibility: visible;
+  max-height: 500px;
+  transition: 0.3s, max-height 0.3s, opacity 0.4s;
 }
 footer .footer--nav--ul li ul a {
   font-family: gotham-book-web;

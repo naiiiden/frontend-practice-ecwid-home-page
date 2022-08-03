@@ -27,13 +27,24 @@ footer {
             }
 
             ul {
+                display: flex;
+                flex-direction: column;
                 list-style-type: none;
-                display: none;
+                position: relative;
                 margin-top: .75rem;
+                max-height: 0;
+                opacity: 0;
+                overflow: hidden;
+                visibility: hidden;
+                transition: .3s, max-height .3s, opacity .2s;
+
 
                 &.show {
-                    display: flex;
-                    flex-direction: column;
+                    opacity: 1;
+                    visibility: visible;
+                    max-height: 500px;
+                    transition: .3s, max-height .3s, opacity .4s;
+
                 }
 
                 a {
