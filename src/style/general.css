@@ -1443,4 +1443,14 @@ footer .language--copyright--ul li:nth-of-type(1) button {
   gap: 0.75rem;
   font-size: 1.125rem;
   font-family: gotham-medium-web;
+}
+
+@media screen and (min-width: 576px) {
+  footer .search--socials--container .socials--download--container {
+    align-items: flex-start;
+  }
+  footer .search--socials--container .socials--download--container .socials--ul {
+    justify-content: unset;
+    gap: 1.5rem;
+  }
 }/*# sourceMappingURL=general.css.map */

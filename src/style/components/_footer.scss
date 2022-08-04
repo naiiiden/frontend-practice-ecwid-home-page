@@ -153,3 +153,18 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 576px) {
+    footer {
+        .search--socials--container {
+            .socials--download--container {
+                align-items: flex-start;
+
+                .socials--ul {
+                    justify-content: unset;
+                    gap: 1.5rem;
+                }
+            }
+        }
+    }
+}
