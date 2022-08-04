@@ -1488,6 +1488,7 @@ footer .language--copyright--ul li:nth-of-type(1) button {
   footer .search--socials--container {
     flex-direction: row;
     align-items: flex-end;
+    justify-content: flex-end;
   }
   footer .search--socials--container .socials--download--container {
     align-items: flex-start;
