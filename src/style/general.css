@@ -1529,4 +1529,18 @@ footer .language--copyright--ul li:nth-of-type(1) button {
   footer .footer--nav--ul li {
     max-width: 16%;
   }
+}
+@media screen and (min-width: 1280px) {
+  footer {
+    padding: 4rem 4.5rem 2rem 4.5rem;
+  }
+  footer .footer--nav--ul {
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  footer .footer--nav--ul li {
+    max-width: 235px;
+    min-width: 200px;
+    width: 200px;
+  }
 }/*# sourceMappingURL=general.css.map */
