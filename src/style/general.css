@@ -1381,6 +1381,18 @@ footer .search--socials--container {
 }
 footer .search--socials--container form {
   display: flex;
+  position: relative;
+}
+footer .search--socials--container form .search--button {
+  width: 18px;
+  height: 18px;
+  border: none;
+  background: none;
+  position: absolute;
+  right: 0.625rem;
+  top: 0.625rem;
+  cursor: pointer;
+  z-index: 10;
 }
 footer .search--socials--container form input {
   width: 100%;

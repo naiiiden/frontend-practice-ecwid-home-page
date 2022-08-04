@@ -130,6 +130,9 @@ const Footer = () => {
                         <div className="search--socials--container">
                             <form>
                                 <input type="text" placeholder="Search" title="Search"/>
+                                <button className="search--button" type="submit">
+                                    <img src={search} alt=""/>
+                                </button>
                             </form>
                             <div className="socials--download--container">
                                 <ul className="socials--ul">

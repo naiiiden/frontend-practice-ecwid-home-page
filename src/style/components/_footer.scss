@@ -75,6 +75,19 @@ footer {
 
         form {
             display: flex;
+            position: relative;
+
+            .search--button {
+                width: 18px;
+                height: 18px;
+                border: none;
+                background: none;
+                position: absolute;
+                right: .625rem;
+                top: .625rem;
+                cursor: pointer;
+                z-index: 10;
+            }
 
             input {
                 width: 100%;
