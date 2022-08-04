@@ -11,6 +11,7 @@ import twitter from "../images/icons/icon-twitter.svg";
 import instagram from "../images/icons/icon-instagram.svg";
 import youtube from "../images/icons/icon-youtube.svg";
 import global from "../images/icons/icon-global.svg";
+import search from "../images/icons/icon-search.svg";
 
 const Footer = () => {
     const [sellOnline, setSellOnline] = useState(false);
