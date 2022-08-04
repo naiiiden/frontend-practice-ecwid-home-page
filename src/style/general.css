@@ -1543,4 +1543,13 @@ footer .language--copyright--ul li:nth-of-type(1) button {
     min-width: 200px;
     width: 200px;
   }
+}
+@media screen and (min-width: 1600px) {
+  .big-width-footer {
+    background: #000;
+  }
+  .big-width-footer footer {
+    max-width: 1600px;
+    margin: auto;
+  }
 }/*# sourceMappingURL=general.css.map */
