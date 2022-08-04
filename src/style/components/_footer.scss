@@ -2,6 +2,11 @@ footer {
     padding: 4rem 1.25rem 2rem 1.25rem;
     background: #000;
 
+    .footer--logo--link {
+        height: fit-content;
+        display: flex;
+    }
+
     .footer--logo {
         height: 34px;
         width: auto;

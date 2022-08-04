@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="big-width-footer">
             <footer>
                 <div className="logo--nav--container">
-                    <a href="https://www.ecwid.com/" aria-label="Go to our homepage"><img src={footer_logo} alt="Ecwid's logo" className="footer--logo"/></a>
+                    <a href="https://www.ecwid.com/" aria-label="Go to our homepage" className="footer--logo--link"><img src={footer_logo} alt="Ecwid's logo" className="footer--logo"/></a>
                     <nav className="footer--nav">
                         <ul className="footer--nav--ul">
                             <li>
@@ -130,7 +130,7 @@ const Footer = () => {
                         <div className="search--socials--container">
                             <form>
                                 <input type="text" placeholder="Search" title="Search"/>
-                                <button className="search--button" type="submit">
+                                <button className="search--button" type="submit" aria-label="Search">
                                     <img src={search} alt=""/>
                                 </button>
                             </form>

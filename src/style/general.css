@@ -1320,6 +1320,12 @@ footer {
   padding: 4rem 1.25rem 2rem 1.25rem;
   background: #000;
 }
+footer .footer--logo--link {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+}
 footer .footer--logo {
   height: 34px;
   width: auto;
