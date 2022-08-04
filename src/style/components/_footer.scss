@@ -279,7 +279,7 @@ footer {
         padding: 4rem 4.5rem 2rem 4.5rem;
 
         .footer--nav--ul {
-            justify-content: space-between;
+            justify-content: flex-start;
             gap: 2rem;
 
             li {
