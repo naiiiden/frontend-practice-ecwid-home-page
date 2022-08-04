@@ -1521,4 +1521,12 @@ footer .language--copyright--ul li:nth-of-type(1) button {
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
+}
+@media screen and (min-width: 1024px) {
+  footer .footer--nav--ul {
+    justify-content: unset;
+  }
+  footer .footer--nav--ul li {
+    max-width: 16%;
+  }
 }/*# sourceMappingURL=general.css.map */

@@ -261,3 +261,15 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    footer {
+        .footer--nav--ul {
+            justify-content: unset;
+
+            li {
+                max-width: 16%;
+            }
+        }
+    }
+}
