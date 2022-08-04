@@ -115,14 +115,10 @@ footer {
     .language--copyright--ul {
         display: flex;
         flex-direction: column;
-        margin-top: 2rem;
 
         .footer--separator {
             border-top: 1px solid #2d3a48;
-
-            &:nth-of-type(1) {
-                display: none;
-            }
+            margin-top: 2rem;
         }
 
         li {
@@ -165,6 +161,102 @@ footer {
                     gap: 1.5rem;
                 }
             }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        padding: 4rem 3.5rem 2rem 3.5rem;
+
+        .footer--logo {
+            min-height: 34px;
+            min-width: 114.03px;
+        }
+
+        
+        .footer--nav--ul {
+            margin-top: unset;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 2rem;
+
+            li {
+                padding: unset;
+                max-width: 20%;
+
+                span {
+                    img {
+                        display: none;
+                    }
+                }
+
+                ul {
+                    max-height: unset;
+                    opacity: unset;
+                    visibility: unset;
+
+                    li {
+                        padding: .5rem 0;
+                    }
+                }
+            }
+        }
+
+        .logo--nav--container {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .search--socials--container {
+            flex-direction: row;
+            align-items: flex-end;
+            
+            .socials--download--container {
+                align-items: flex-start;
+
+                .socials--ul {
+                    justify-content: unset;
+                    gap: 1.5rem;
+                }
+
+                .download--container {
+                    a {
+                        display: flex;
+                    }
+                }
+            }
+        }
+
+        .language--copyright--ul {
+            flex-direction: row-reverse;
+            gap: 1rem;
+
+            .footer--separator {
+                &:nth-of-type(1) {
+                    display: none;
+                }
+            }
+
+            p {
+                color: #919eaa;
+                font-family: gotham-book-web;
+                font-size: .875rem;
+            }
+
+            li {
+                &:nth-of-type(1) {
+                    margin: unset;
+                    margin-right: auto;
+                }
+            }
+        }
+
+        .tablet {
+            border-top: 1px solid #2d3a48;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
         }
     }
 }

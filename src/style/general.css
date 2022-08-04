@@ -1413,13 +1413,10 @@ footer .search--socials--container .socials--download--container .download--cont
 footer .language--copyright--ul {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
 }
 footer .language--copyright--ul .footer--separator {
   border-top: 1px solid #2d3a48;
-}
-footer .language--copyright--ul .footer--separator:nth-of-type(1) {
-  display: none;
+  margin-top: 2rem;
 }
 footer .language--copyright--ul li {
   padding: 0.5rem 0;
@@ -1452,5 +1449,75 @@ footer .language--copyright--ul li:nth-of-type(1) button {
   footer .search--socials--container .socials--download--container .socials--ul {
     justify-content: unset;
     gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    padding: 4rem 3.5rem 2rem 3.5rem;
+  }
+  footer .footer--logo {
+    min-height: 34px;
+    min-width: 114.03px;
+  }
+  footer .footer--nav--ul {
+    margin-top: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  footer .footer--nav--ul li {
+    padding: unset;
+    max-width: 20%;
+  }
+  footer .footer--nav--ul li span img {
+    display: none;
+  }
+  footer .footer--nav--ul li ul {
+    max-height: unset;
+    opacity: unset;
+    visibility: unset;
+  }
+  footer .footer--nav--ul li ul li {
+    padding: 0.5rem 0;
+  }
+  footer .logo--nav--container {
+    display: flex;
+    gap: 2rem;
+  }
+  footer .search--socials--container {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  footer .search--socials--container .socials--download--container {
+    align-items: flex-start;
+  }
+  footer .search--socials--container .socials--download--container .socials--ul {
+    justify-content: unset;
+    gap: 1.5rem;
+  }
+  footer .search--socials--container .socials--download--container .download--container a {
+    display: flex;
+  }
+  footer .language--copyright--ul {
+    flex-direction: row-reverse;
+    gap: 1rem;
+  }
+  footer .language--copyright--ul .footer--separator:nth-of-type(1) {
+    display: none;
+  }
+  footer .language--copyright--ul p {
+    color: #919eaa;
+    font-family: gotham-book-web;
+    font-size: 0.875rem;
+  }
+  footer .language--copyright--ul li:nth-of-type(1) {
+    margin: unset;
+    margin-right: auto;
+  }
+  footer .tablet {
+    border-top: 1px solid #2d3a48;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
   }
 }/*# sourceMappingURL=general.css.map */
