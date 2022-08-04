@@ -271,6 +271,19 @@ footer {
                 max-width: 16%;
             }
         }
+
+        a {
+            transition: .2s;
+
+            &:hover {
+                color: #919eab !important;
+                transition: .2s;
+            }
+        }
+
+        button {
+            cursor: pointer;
+        }
     }
 }
 
