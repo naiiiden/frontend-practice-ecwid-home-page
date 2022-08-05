@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import footer_logo from "../images/logo/logo-dark.svg";
 import arrow_right from "../images/icons/arrow_right.svg";
 import apple_store from "../images/badges/black-app-store.svg";
@@ -293,7 +293,7 @@ const Footer = () => {
             </div>
             <div>
                 <a href="https://www.ecwid.com/es">
-                    <span className="flag columbia"></span>
+                    <span className="flag colombia"></span>
                     <span className="country--name">Columbia</span>
                 </a>
             </div>

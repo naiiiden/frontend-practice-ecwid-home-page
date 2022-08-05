@@ -342,6 +342,169 @@ footer {
     background: #fff;
 
     &.opened {
-        max-height: 576px;
+        max-height: 1576px;
+    }
+
+    a {
+        font-size: .875rem;
+        line-height: 1.125rem;
+        color: #333;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .flag {
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: url("../images/flags/flags.png");
+            background-size: auto 100%;
+
+            &.argentina {
+                background-position: -286px 0;
+            }
+
+            &.finland {
+                background-position: -858px 0;
+            }
+
+            &.japan {
+                background-position: -638px 0;
+            }
+
+            &.peru {
+                background-position: -374px 0;
+            }
+
+            &.sweden {
+                background-position: -836px 0;
+            }
+
+            &.brazil {
+                background-position: -88px 0;
+            }
+
+            &.france {
+                background-position: -44px 0;
+            }
+
+            &.korea {
+                background-position: -308px 0;
+            }
+
+            &.philippines {
+                background-position: -572px 0;
+            }
+
+            &.thailand {
+                background-position: -506px 0;
+            }
+
+            &.bulgaria {
+                background-position: -770px 0;
+            }
+
+            &.germany {
+                background-position: -22px 0;
+            }
+
+            &.latvia {
+                background-position: -902px 0;
+            }
+
+            &.poland {
+                background-position: -616px 0;
+            }
+
+            &.turkey {
+                background-position: -418px 0;
+            }
+
+            &.china {
+                background-position: -682px 0;
+            }
+
+            &.greece {
+                background-position: -814px 0;
+            }
+
+            &.lithuania {
+                background-position: -924px 0;
+            }
+
+            &.portugal {
+                background-position: -176px 0;
+            }
+
+            &.usa {
+                background-position: -242px 0;
+            }
+
+            &.colombia {
+                background-position: -462px 0;
+            }
+
+            &.hungary {
+                background-position: -66px 0;
+            }
+
+            &.mexico {
+                background-position: -352px 0;
+            }
+
+            &.romania {
+                background-position: -198px 0;
+            }
+
+            &.venezuela {
+                background-position: -440px 0;
+            }
+
+            &.czech {
+                background-position: -330px 0;
+            }
+
+            &.india {
+                background-position: -726px 0;
+            }
+
+            &.netherlands {
+                background-position: -132px 0;
+            }
+
+            &.slovakia {
+                background-position: -946px 0;
+            }
+
+            &.uae {
+                background-position: -880px 0;
+            }
+
+            &.denmark {
+                background-position: -792px 0;
+            }
+
+            &.indonesia {
+                background-position: -484px 0;
+            }
+
+            &.norway {
+                background-position: -154px 0;
+            }
+
+            &.spain {
+                background-position: -264px 0;
+            }
+
+            &.egypt {
+                background-position: -748px 0;
+            }
+
+            &.italy {
+                background-position: -110px 0;
+            }
+        }
     }
 }

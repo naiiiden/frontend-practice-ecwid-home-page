@@ -1591,5 +1591,130 @@ footer .language--copyright--ul li:nth-of-type(1) .languages--button {
   background: #fff;
 }
 .languages--container.opened {
-  max-height: 576px;
+  max-height: 1576px;
+}
+.languages--container a {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.languages--container a .flag {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: url("../images/flags/flags.png");
+  background-size: auto 100%;
+}
+.languages--container a .flag.argentina {
+  background-position: -286px 0;
+}
+.languages--container a .flag.finland {
+  background-position: -858px 0;
+}
+.languages--container a .flag.japan {
+  background-position: -638px 0;
+}
+.languages--container a .flag.peru {
+  background-position: -374px 0;
+}
+.languages--container a .flag.sweden {
+  background-position: -836px 0;
+}
+.languages--container a .flag.brazil {
+  background-position: -88px 0;
+}
+.languages--container a .flag.france {
+  background-position: -44px 0;
+}
+.languages--container a .flag.korea {
+  background-position: -308px 0;
+}
+.languages--container a .flag.philippines {
+  background-position: -572px 0;
+}
+.languages--container a .flag.thailand {
+  background-position: -506px 0;
+}
+.languages--container a .flag.bulgaria {
+  background-position: -770px 0;
+}
+.languages--container a .flag.germany {
+  background-position: -22px 0;
+}
+.languages--container a .flag.latvia {
+  background-position: -902px 0;
+}
+.languages--container a .flag.poland {
+  background-position: -616px 0;
+}
+.languages--container a .flag.turkey {
+  background-position: -418px 0;
+}
+.languages--container a .flag.china {
+  background-position: -682px 0;
+}
+.languages--container a .flag.greece {
+  background-position: -814px 0;
+}
+.languages--container a .flag.lithuania {
+  background-position: -924px 0;
+}
+.languages--container a .flag.portugal {
+  background-position: -176px 0;
+}
+.languages--container a .flag.usa {
+  background-position: -242px 0;
+}
+.languages--container a .flag.colombia {
+  background-position: -462px 0;
+}
+.languages--container a .flag.hungary {
+  background-position: -66px 0;
+}
+.languages--container a .flag.mexico {
+  background-position: -352px 0;
+}
+.languages--container a .flag.romania {
+  background-position: -198px 0;
+}
+.languages--container a .flag.venezuela {
+  background-position: -440px 0;
+}
+.languages--container a .flag.czech {
+  background-position: -330px 0;
+}
+.languages--container a .flag.india {
+  background-position: -726px 0;
+}
+.languages--container a .flag.netherlands {
+  background-position: -132px 0;
+}
+.languages--container a .flag.slovakia {
+  background-position: -946px 0;
+}
+.languages--container a .flag.uae {
+  background-position: -880px 0;
+}
+.languages--container a .flag.denmark {
+  background-position: -792px 0;
+}
+.languages--container a .flag.indonesia {
+  background-position: -484px 0;
+}
+.languages--container a .flag.norway {
+  background-position: -154px 0;
+}
+.languages--container a .flag.spain {
+  background-position: -264px 0;
+}
+.languages--container a .flag.egypt {
+  background-position: -748px 0;
+}
+.languages--container a .flag.italy {
+  background-position: -110px 0;
 }/*# sourceMappingURL=general.css.map */
