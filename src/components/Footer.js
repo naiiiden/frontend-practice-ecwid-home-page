@@ -22,8 +22,10 @@ const Footer = () => {
     const [support, setSupport] = useState(false);
     const [resources, setResources] = useState(false);
     const [blog, setBlog] = useState(false);
+    const [openGlobal, setOpenGlobal] = useState(false);
 
     return (
+        <>
         <div className="big-width-footer">
             <footer>
                 <div className="logo--nav--container">
@@ -155,10 +157,10 @@ const Footer = () => {
                 <div className="footer--separator tablet"></div>
                 <ul className="language--copyright--ul">
                     <li>
-                        <button>
+                        <a href="#languages" className="languages--button" onClick={() => setOpenGlobal(!openGlobal)}>
                             <img src={global} alt=""/>
                             <span>GLOBAL</span>
-                        </button>
+                        </a>
                     </li>
                     <li><p>© 2022 Ecwid by Lightspeed</p></li>
                     <li><a href="https://www.lightspeedhq.com/legal/data-processing-agreement/">DPA</a></li>
@@ -168,6 +170,40 @@ const Footer = () => {
                 </ul>
             </footer>
         </div>
+        <section id="languages" className={`languages--container ${openGlobal ? "opened" : ""}`}>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+            <div>ARGENTINA</div>
+
+            
+        </section>
+        </>
     )
 }
 

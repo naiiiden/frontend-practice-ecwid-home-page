@@ -32,6 +32,10 @@ body {
   font-family: Open Sans, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -1449,7 +1453,7 @@ footer .language--copyright--ul li:nth-of-type(1) {
   order: 1;
   margin: 2rem auto 0 auto;
 }
-footer .language--copyright--ul li:nth-of-type(1) button {
+footer .language--copyright--ul li:nth-of-type(1) .languages--button {
   border: none;
   background: none;
   color: #fff;
@@ -1554,8 +1558,8 @@ footer .language--copyright--ul li:nth-of-type(1) button {
     color: #919eab !important;
     transition: 0.2s;
   }
-  footer button {
-    cursor: pointer;
+  footer a.languages--button:hover {
+    color: #fff !important;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1580,4 +1584,12 @@ footer .language--copyright--ul li:nth-of-type(1) button {
     max-width: 1600px;
     margin: auto;
   }
+}
+.languages--container {
+  max-height: 0px;
+  overflow: hidden;
+  background: #fff;
+}
+.languages--container.opened {
+  max-height: 576px;
 }/*# sourceMappingURL=general.css.map */
