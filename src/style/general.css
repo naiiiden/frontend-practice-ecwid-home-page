@@ -1752,6 +1752,13 @@ footer .language--copyright--ul li:nth-of-type(1) .languages--button {
   .languages--container div {
     width: 20%;
   }
+  .languages--container div a {
+    transition: 0.2s;
+  }
+  .languages--container div a:hover {
+    color: #369fe0;
+    transition: 0.2s;
+  }
 }
 @media screen and (min-width: 1280px) {
   .languages--container {

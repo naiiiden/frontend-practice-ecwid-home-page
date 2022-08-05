@@ -547,6 +547,15 @@ footer {
 
         div {
             width: 20%;
+
+            a {
+                transition: .2s;
+
+                &:hover {
+                    color: #369fe0;
+                    transition: .2s;
+                }
+            }
         }
     }
 }
