@@ -1744,4 +1744,12 @@ footer .language--copyright--ul li:nth-of-type(1) .languages--button {
   .languages--container div {
     width: 25%;
   }
+}
+@media screen and (min-width: 1024px) {
+  .languages--container {
+    justify-content: flex-start;
+  }
+  .languages--container div {
+    width: 20%;
+  }
 }/*# sourceMappingURL=general.css.map */

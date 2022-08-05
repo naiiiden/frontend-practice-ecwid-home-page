@@ -540,3 +540,13 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .languages--container {
+        justify-content: flex-start;
+
+        div {
+            width: 20%;
+        }
+    }
+}
