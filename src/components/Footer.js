@@ -170,230 +170,232 @@ const Footer = () => {
                 </ul>
             </footer>
         </div>
-        <section id="languages" className={`languages--container ${openGlobal ? "opened" : ""}`}>
-            <div>
-                <a href="https://www.ecwid.com/es">
-                    <span className="flag argentina"></span>
-                    <span className="country--name">Argentina</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/fi">
-                    <span className="flag finland"></span>
-                    <span className="country--name">Finland</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/jp">
-                    <span className="flag japan"></span>
-                    <span className="country--name">Japan</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/pe">
-                    <span className="flag peru"></span>
-                    <span className="country--name">Peru</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/se">
-                    <span className="flag sweden"></span>
-                    <span className="country--name">Sweden</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/br">
-                    <span className="flag brazil"></span>
-                    <span className="country--name">Brazil</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/fr">
-                    <span className="flag france"></span>
-                    <span className="country--name">France</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/kr">
-                    <span className="flag korea"></span>
-                    <span className="country--name">Korea</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/ph">
-                    <span className="flag philippines"></span>
-                    <span className="country--name">Philippines</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/th">
-                    <span className="flag thailand"></span>
-                    <span className="country--name">Thailand</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/bg">
-                    <span className="flag bulgaria"></span>
-                    <span className="country--name">Bulgaria</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/de">
-                    <span className="flag germany"></span>
-                    <span className="country--name">Germany</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/lv">
-                    <span className="flag latvia"></span>
-                    <span className="country--name">Latvia</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/pl">
-                    <span className="flag poland"></span>
-                    <span className="country--name">Poland</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/tr">
-                    <span className="flag turkey"></span>
-                    <span className="country--name">Turkey</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/cn">
-                    <span className="flag china"></span>
-                    <span className="country--name">China</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/el">
-                    <span className="flag greece"></span>
-                    <span className="country--name">Greece</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/lt">
-                    <span className="flag lithuania"></span>
-                    <span className="country--name">Lithuania</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/pt">
-                    <span className="flag portugal"></span>
-                    <span className="country--name">Portugal</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/">
-                    <span className="flag usa"></span>
-                    <span className="country--name">USA</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/es">
-                    <span className="flag colombia"></span>
-                    <span className="country--name">Columbia</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/hu">
-                    <span className="flag hungary"></span>
-                    <span className="country--name">Hungary</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/es">
-                    <span className="flag mexico"></span>
-                    <span className="country--name">Mexico</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/ro">
-                    <span className="flag romania"></span>
-                    <span className="country--name">Romania</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/es">
-                    <span className="flag venezuela"></span>
-                    <span className="country--name">Venezuela</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/cz">
-                    <span className="flag czech"></span>
-                    <span className="country--name">Czech Republic</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/in">
-                    <span className="flag india"></span>
-                    <span className="country--name">India</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/nl">
-                    <span className="flag netherlands"></span>
-                    <span className="country--name">Netherlands</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/sk">
-                    <span className="flag slovakia"></span>
-                    <span className="country--name">Slovakia</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/ae">
-                    <span className="flag uae"></span>
-                    <span className="country--name">United Arab Emirates</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/da">
-                    <span className="flag denmark"></span>
-                    <span className="country--name">Denmark</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/id">
-                    <span className="flag indonesia"></span>
-                    <span className="country--name">Indonesia</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/no">
-                    <span className="flag norway"></span>
-                    <span className="country--name">Norway</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/es">
-                    <span className="flag spain"></span>
-                    <span className="country--name">Spain</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/">
-                    <span className="flag global"></span>
-                    <span className="country--name">Global</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/eg">
-                    <span className="flag egypt"></span>
-                    <span className="country--name">Egypt</span>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.ecwid.com/it">
-                    <span className="flag italy"></span>
-                    <span className="country--name">Italy</span>
-                </a>
-            </div>
-        </section>
+        <div className="languages--big--container">
+            <section id="languages" className={`languages--container ${openGlobal ? "opened" : ""}`}>
+                <div>
+                    <a href="https://www.ecwid.com/es">
+                        <span className="flag argentina"></span>
+                        <span className="country--name">Argentina</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/fi">
+                        <span className="flag finland"></span>
+                        <span className="country--name">Finland</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/jp">
+                        <span className="flag japan"></span>
+                        <span className="country--name">Japan</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/pe">
+                        <span className="flag peru"></span>
+                        <span className="country--name">Peru</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/se">
+                        <span className="flag sweden"></span>
+                        <span className="country--name">Sweden</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/br">
+                        <span className="flag brazil"></span>
+                        <span className="country--name">Brazil</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/fr">
+                        <span className="flag france"></span>
+                        <span className="country--name">France</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/kr">
+                        <span className="flag korea"></span>
+                        <span className="country--name">Korea</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/ph">
+                        <span className="flag philippines"></span>
+                        <span className="country--name">Philippines</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/th">
+                        <span className="flag thailand"></span>
+                        <span className="country--name">Thailand</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/bg">
+                        <span className="flag bulgaria"></span>
+                        <span className="country--name">Bulgaria</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/de">
+                        <span className="flag germany"></span>
+                        <span className="country--name">Germany</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/lv">
+                        <span className="flag latvia"></span>
+                        <span className="country--name">Latvia</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/pl">
+                        <span className="flag poland"></span>
+                        <span className="country--name">Poland</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/tr">
+                        <span className="flag turkey"></span>
+                        <span className="country--name">Turkey</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/cn">
+                        <span className="flag china"></span>
+                        <span className="country--name">China</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/el">
+                        <span className="flag greece"></span>
+                        <span className="country--name">Greece</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/lt">
+                        <span className="flag lithuania"></span>
+                        <span className="country--name">Lithuania</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/pt">
+                        <span className="flag portugal"></span>
+                        <span className="country--name">Portugal</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/">
+                        <span className="flag usa"></span>
+                        <span className="country--name">USA</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/es">
+                        <span className="flag colombia"></span>
+                        <span className="country--name">Columbia</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/hu">
+                        <span className="flag hungary"></span>
+                        <span className="country--name">Hungary</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/es">
+                        <span className="flag mexico"></span>
+                        <span className="country--name">Mexico</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/ro">
+                        <span className="flag romania"></span>
+                        <span className="country--name">Romania</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/es">
+                        <span className="flag venezuela"></span>
+                        <span className="country--name">Venezuela</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/cz">
+                        <span className="flag czech"></span>
+                        <span className="country--name">Czech Republic</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/in">
+                        <span className="flag india"></span>
+                        <span className="country--name">India</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/nl">
+                        <span className="flag netherlands"></span>
+                        <span className="country--name">Netherlands</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/sk">
+                        <span className="flag slovakia"></span>
+                        <span className="country--name">Slovakia</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/ae">
+                        <span className="flag uae"></span>
+                        <span className="country--name">United Arab Emirates</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/da">
+                        <span className="flag denmark"></span>
+                        <span className="country--name">Denmark</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/id">
+                        <span className="flag indonesia"></span>
+                        <span className="country--name">Indonesia</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/no">
+                        <span className="flag norway"></span>
+                        <span className="country--name">Norway</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/es">
+                        <span className="flag spain"></span>
+                        <span className="country--name">Spain</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/">
+                        <span className="flag global"></span>
+                        <span className="country--name">Global</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/eg">
+                        <span className="flag egypt"></span>
+                        <span className="country--name">Egypt</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.ecwid.com/it">
+                        <span className="flag italy"></span>
+                        <span className="country--name">Italy</span>
+                    </a>
+                </div>
+            </section>
+        </div>
         </>
     )
 }

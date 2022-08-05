@@ -1757,4 +1757,13 @@ footer .language--copyright--ul li:nth-of-type(1) .languages--button {
   .languages--container {
     padding: 0 4.5rem;
   }
+}
+@media screen and (min-width: 1600px) {
+  .languages--big--container {
+    background: #f1f1f1;
+  }
+  .languages--container {
+    max-width: 1600px;
+    margin: auto;
+  }
 }/*# sourceMappingURL=general.css.map */
