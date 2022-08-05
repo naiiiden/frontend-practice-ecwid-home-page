@@ -530,3 +530,13 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    .languages--container {
+        padding: 0 3.5rem;
+
+        div {
+            width: 25%;
+        }
+    }
+}
