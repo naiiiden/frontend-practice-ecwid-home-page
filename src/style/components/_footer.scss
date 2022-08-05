@@ -522,3 +522,11 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 600px) {
+    .languages--container {
+        div {
+            width: 33.33333%;
+        }
+    }
+}
