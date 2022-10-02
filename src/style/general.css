@@ -30,6 +30,10 @@ p, small {
   line-height: 1.5;
 }
 
+button:focus, a:focus, input:focus {
+  outline-offset: 0.5rem;
+}
+
 body {
   width: 100%;
   min-height: 100%;
