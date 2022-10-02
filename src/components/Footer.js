@@ -43,7 +43,7 @@ const Footer = () => {
                         <ul className="footer--nav--ul" role="menubar">
                             <li role="none">
                                 {isTablet ? 
-                                <span>SELL ONLINE</span> 
+                                <h3>SELL ONLINE</h3> 
                                 :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!sellOnline ? "Open Sell Online" : "Close Sell Online"} aria-expanded={!sellOnline ? "false" : "true"} onClick={() => setSellOnline(!sellOnline)}>SELL ONLINE <img src={arrow_right} alt="" className={`dropdown ${sellOnline ? "rotate--img" : ""}`}/></button>
                                 }
@@ -62,7 +62,7 @@ const Footer = () => {
                             </li>
                             <li role="none">
                                 {isTablet ?
-                                <span>PRODUCT</span>
+                                <h3>PRODUCT</h3>
                                 :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!product ? "Open Product" : "Close Product"} aria-expanded={!product ? "false" : "true"} onClick={() => setProduct(!product)}>PRODUCT <img src={arrow_right} alt="" className={`dropdown ${product ? "rotate--img" : ""}`}/></button>
                                 }
@@ -81,7 +81,7 @@ const Footer = () => {
                             </li>
                             <li role="none">
                                 {isTablet ?
-                                <span>FOR YOUR BUSINESS</span>
+                                <h3>FOR YOUR BUSINESS</h3>
                                 :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!business ? "Open For Your Business" : "Close For Your Business"} aria-expanded={!business ? "false" : "true"} onClick={() => setBusiness(!business)}>FOR YOUR BUSINESS <img src={arrow_right} alt="" className={`dropdown ${business ? "rotate--img" : ""}`}/></button>
                                 }
@@ -99,7 +99,7 @@ const Footer = () => {
                             </li>
                             <li role="none">
                                 {isTablet ? 
-                                <span>PARTNERS</span>
+                                <h3>PARTNERS</h3>
                                 :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!partners ? "Open Partners" : "Close Partners"} aria-expanded={!partners ? "false" : "true"} onClick={() => setPartners(!partners)}>PARTNERS <img src={arrow_right} alt="" className={`dropdown ${partners ? "rotate--img" : ""}`}/></button>
                                 }
@@ -113,7 +113,7 @@ const Footer = () => {
                             </li>
                             <li role="none">
                                 {isTablet ? 
-                                <span>COMPANY</span>
+                                <h3>COMPANY</h3>
                                 :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!company ? "Open Company" : "Close Company"} aria-expanded={!company ? "false" : "true"} onClick={() => setCompany(!company)}>COMPANY <img src={arrow_right} alt="" className={`dropdown ${company ? "rotate--img" : ""}`}/></button>
                                 }
@@ -127,7 +127,7 @@ const Footer = () => {
                             </li>
                             <li role="none">
                                 {isTablet ?
-                                <span>SUPPORT</span>
+                                <h3>SUPPORT</h3>
                                 :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!support ? "Open Support" : "Close Support"} aria-expanded={!support ? "false" : "true"} onClick={() => setSupport(!support)}>SUPPORT <img src={arrow_right} alt="" className={`dropdown ${support ? "rotate--img" : ""}`}/></button>
                                 }
@@ -145,7 +145,7 @@ const Footer = () => {
                             </li>
                             <li role="none">
                                 {isTablet ? 
-                                <span>RESOURCES</span>
+                                <h3>RESOURCES</h3>
                                 :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!resources ? "Open Resources" : "Close Resources"} aria-expanded={!resources ? "false" : "true"} onClick={() => setResources(!resources)}>RESOURCES <img src={arrow_right} alt="" className={`dropdown ${resources ? "rotate--img" : ""}`}/></button>
                                 }
@@ -160,7 +160,7 @@ const Footer = () => {
                             </li>
                             <li role="none">
                                 {isTablet ? 
-                                <span>LATEST BLOG</span>
+                                <h3>LATEST BLOG</h3>
                                 :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!blog ? "Open Latest Blog" : "Close Latest Blog"} aria-expanded={!blog ? "false" : "true"} onClick={() => setBlog(!blog)}>LATEST BLOG <img src={arrow_right} alt="" className={`dropdown ${blog ? "rotate--img" : ""}`}/></button>
                                 }

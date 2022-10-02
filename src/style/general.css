@@ -1351,7 +1351,7 @@ footer .footer--nav--ul {
 footer .footer--nav--ul li {
   padding: 0.5rem 0;
 }
-footer .footer--nav--ul li button, footer .footer--nav--ul li span {
+footer .footer--nav--ul li button, footer .footer--nav--ul li span, footer .footer--nav--ul li h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1365,10 +1365,10 @@ footer .footer--nav--ul li button, footer .footer--nav--ul li span {
   border: none;
   text-align: start;
 }
-footer .footer--nav--ul li button img, footer .footer--nav--ul li span img {
+footer .footer--nav--ul li button img, footer .footer--nav--ul li span img, footer .footer--nav--ul li h3 img {
   transition: 0.2s;
 }
-footer .footer--nav--ul li button img.rotate--img, footer .footer--nav--ul li span img.rotate--img {
+footer .footer--nav--ul li button img.rotate--img, footer .footer--nav--ul li span img.rotate--img, footer .footer--nav--ul li h3 img.rotate--img {
   transform: rotate(90deg);
   transition: 0.2s;
 }
