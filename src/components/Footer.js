@@ -42,7 +42,11 @@ const Footer = () => {
                     <nav className="footer--nav" aria-label="Footer">
                         <ul className="footer--nav--ul" role="menubar">
                             <li role="none">
+                                {isTablet ? 
+                                <span>SELL ONLINE</span> 
+                                :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!sellOnline ? "Open Sell Online" : "Close Sell Online"} aria-expanded={!sellOnline ? "false" : "true"} onClick={() => setSellOnline(!sellOnline)}>SELL ONLINE <img src={arrow_right} alt="" className={`dropdown ${sellOnline ? "rotate--img" : ""}`}/></button>
+                                }
                                 <ul role="menu" className={`dropdown ${sellOnline ? "show" : ""}`}>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/sell-everywhere">Sell Everywhere</a></li>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/social-selling">Sell on Social</a></li>
@@ -57,7 +61,11 @@ const Footer = () => {
                                 </ul>
                             </li>
                             <li role="none">
+                                {isTablet ?
+                                <span>PRODUCT</span>
+                                :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!product ? "Open Product" : "Close Product"} aria-expanded={!product ? "false" : "true"} onClick={() => setProduct(!product)}>PRODUCT <img src={arrow_right} alt="" className={`dropdown ${product ? "rotate--img" : ""}`}/></button>
+                                }
                                 <ul role="menu" className={`dropdown ${product ? "show" : ""}`}>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/features">Features</a></li>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/pricing">Pricing</a></li>
@@ -72,7 +80,11 @@ const Footer = () => {
                                 </ul>
                             </li>
                             <li role="none">
+                                {isTablet ?
+                                <span>FOR YOUR BUSINESS</span>
+                                :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!business ? "Open For Your Business" : "Close For Your Business"} aria-expanded={!business ? "false" : "true"} onClick={() => setBusiness(!business)}>FOR YOUR BUSINESS <img src={arrow_right} alt="" className={`dropdown ${business ? "rotate--img" : ""}`}/></button>
+                                }
                                 <ul role="menu" className={`dropdown ${business ? "show" : ""}`}>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/solutions">Business Solutions</a></li>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/easy-ecommerce">Ecommerce Website</a></li>
@@ -86,7 +98,11 @@ const Footer = () => {
                                 </ul>
                             </li>
                             <li role="none">
+                                {isTablet ? 
+                                <span>PARTNERS</span>
+                                :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!partners ? "Open Partners" : "Close Partners"} aria-expanded={!partners ? "false" : "true"} onClick={() => setPartners(!partners)}>PARTNERS <img src={arrow_right} alt="" className={`dropdown ${partners ? "rotate--img" : ""}`}/></button>
+                                }
                                 <ul role="menu" className={`dropdown ${partners ? "show" : ""}`}>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/partners/reseller">Reseller Program</a></li>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/partners/white-label">White Label Solutions</a></li>
@@ -96,7 +112,11 @@ const Footer = () => {
                                 </ul>
                             </li>
                             <li role="none">
+                                {isTablet ? 
+                                <span>COMPANY</span>
+                                :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!company ? "Open Company" : "Close Company"} aria-expanded={!company ? "false" : "true"} onClick={() => setCompany(!company)}>COMPANY <img src={arrow_right} alt="" className={`dropdown ${company ? "rotate--img" : ""}`}/></button>
+                                }
                                 <ul role="menu" className={`dropdown ${company ? "show" : ""}`}>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/about">About Us</a></li>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/blog">Ecwid Blog</a></li>
@@ -106,7 +126,11 @@ const Footer = () => {
                                 </ul>
                             </li>
                             <li role="none">
+                                {isTablet ?
+                                <span>SUPPORT</span>
+                                :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!support ? "Open Support" : "Close Support"} aria-expanded={!support ? "false" : "true"} onClick={() => setSupport(!support)}>SUPPORT <img src={arrow_right} alt="" className={`dropdown ${support ? "rotate--img" : ""}`}/></button>
+                                }
                                 <ul role="menu" className={`dropdown ${support ? "show" : ""}`}>
                                     <li role="none"><a role="menuitem" href="https://support.ecwid.com/">Help Center</a></li>
                                     <li role="none"><a role="menuitem" href="https://support.ecwid.com/hc/en-us/articles/4405020488466">Product Updates</a></li>
@@ -120,7 +144,11 @@ const Footer = () => {
                                 </ul>
                             </li>
                             <li role="none">
+                                {isTablet ? 
+                                <span>RESOURCES</span>
+                                :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!resources ? "Open Resources" : "Close Resources"} aria-expanded={!resources ? "false" : "true"} onClick={() => setResources(!resources)}>RESOURCES <img src={arrow_right} alt="" className={`dropdown ${resources ? "rotate--img" : ""}`}/></button>
+                                }
                                 <ul role="menu" className={`dropdown ${resources ? "show" : ""}`}>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/products-to-sell">Products to sell</a></li>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/sell-online">How to Sell Online</a></li>
@@ -131,7 +159,11 @@ const Footer = () => {
                                 </ul>
                             </li>
                             <li role="none">
+                                {isTablet ? 
+                                <span>LATEST BLOG</span>
+                                :
                                 <button role="menuitem" aria-haspopup="true" aria-label={!blog ? "Open Latest Blog" : "Close Latest Blog"} aria-expanded={!blog ? "false" : "true"} onClick={() => setBlog(!blog)}>LATEST BLOG <img src={arrow_right} alt="" className={`dropdown ${blog ? "rotate--img" : ""}`}/></button>
+                                }
                                 <ul role="menu" className={`dropdown ${blog ? "show" : ""}`}>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/blog/overcoming-the-fear-of-creating-content.html">Ecommerce Content 101: Overcoming the Fear of Creating Content</a></li>
                                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/blog/how-this-store-saved-hundreds-of-work-hours.html">How This Store with a Large Catalog Saved Hundreds of Work Hours</a></li>
