@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-practice-ecwid-home-page/static/css/main.ec23196a.css",
-    "main.js": "/frontend-practice-ecwid-home-page/static/js/main.4caa786b.js",
+    "main.css": "/frontend-practice-ecwid-home-page/static/css/main.17744ccd.css",
+    "main.js": "/frontend-practice-ecwid-home-page/static/js/main.d092e8eb.js",
     "static/media/atlas.png": "/frontend-practice-ecwid-home-page/static/media/atlas.e4806fdb671db98d680a.png",
     "static/media/flags.png": "/frontend-practice-ecwid-home-page/static/media/flags.32764bf508d0135a0f32.png",
     "static/media/Gotham-Book_Web.woff2": "/frontend-practice-ecwid-home-page/static/media/Gotham-Book_Web.7fa96aa06775160ee646.woff2",
@@ -48,11 +48,11 @@
     "static/media/icon-search.svg": "/frontend-practice-ecwid-home-page/static/media/icon-search.da5ab7653f376e41113729c1ec363163.svg",
     "static/media/icon-blogpost.svg": "/frontend-practice-ecwid-home-page/static/media/icon-blogpost.8eab25c6ac74df9c61f28e6e3981f91d.svg",
     "static/media/arrow_right.svg": "/frontend-practice-ecwid-home-page/static/media/arrow_right.abce9d688001df5dcb004bbdf424f9a6.svg",
-    "main.ec23196a.css.map": "/frontend-practice-ecwid-home-page/static/css/main.ec23196a.css.map",
-    "main.4caa786b.js.map": "/frontend-practice-ecwid-home-page/static/js/main.4caa786b.js.map"
+    "main.17744ccd.css.map": "/frontend-practice-ecwid-home-page/static/css/main.17744ccd.css.map",
+    "main.d092e8eb.js.map": "/frontend-practice-ecwid-home-page/static/js/main.d092e8eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec23196a.css",
-    "static/js/main.4caa786b.js"
+    "static/css/main.17744ccd.css",
+    "static/js/main.d092e8eb.js"
   ]
 }
