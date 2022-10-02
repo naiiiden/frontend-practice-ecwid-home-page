@@ -1351,7 +1351,7 @@ footer .footer--nav--ul {
 footer .footer--nav--ul li {
   padding: 0.5rem 0;
 }
-footer .footer--nav--ul li span {
+footer .footer--nav--ul li button, footer .footer--nav--ul li span {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1361,11 +1361,14 @@ footer .footer--nav--ul li span {
   line-height: 1.5rem;
   font-family: gotham-medium-web;
   font-weight: 500;
+  background: none;
+  border: none;
+  font-size: inherit;
 }
-footer .footer--nav--ul li span img {
+footer .footer--nav--ul li button img, footer .footer--nav--ul li span img {
   transition: 0.2s;
 }
-footer .footer--nav--ul li span img.rotate--img {
+footer .footer--nav--ul li button img.rotate--img, footer .footer--nav--ul li span img.rotate--img {
   transform: rotate(90deg);
   transition: 0.2s;
 }
@@ -1502,7 +1505,7 @@ footer .language--copyright--ul li:nth-of-type(1) .languages--button {
     padding: unset;
     max-width: 20%;
   }
-  footer .footer--nav--ul li span img {
+  footer .footer--nav--ul li button img, footer .footer--nav--ul li span img {
     display: none;
   }
   footer .footer--nav--ul li ul {
