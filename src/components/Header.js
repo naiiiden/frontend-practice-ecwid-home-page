@@ -61,7 +61,7 @@ const Header = () => {
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`}>
                 {!isDesktop ? 
                     <li>
-                        <span onClick={() => setOpenSell(!openSell)} className={`${openSell ? "open" : ""}`} role="button">Sell</span>
+                        <span onClick={() => setOpenSell(!openSell)} className={`${openSell ? "open" : ""}`} role="button" aria-haspopup="true" aria-expanded={openSell ? "true" : "false"}>Sell</span>
                         <ul className={`dropdown ${openSell ? "show" : ""}`}>
                             <li><a href="https://www.ecwid.com/sell">Sell anywhere</a></li>
                             <li><a href="https://www.ecwid.com/sell">Website</a></li>
@@ -79,7 +79,7 @@ const Header = () => {
                 }
                 {!isDesktop ? 
                     <li>
-                        <span onClick={() => setOpenMarket(!openMarket)} className={`${openMarket ? "open" : ""}`} role="button">Market</span>
+                        <span onClick={() => setOpenMarket(!openMarket)} className={`${openMarket ? "open" : ""}`} role="button" aria-haspopup="true" aria-expanded={openMarket ? "true" : "false"}>Market</span>
                         <ul className={`dropdown ${openMarket ? "show" : ""}`}>
                             <li><a href="https://www.ecwid.com/promote">Market your business</a></li>
                             <li><a href="https://www.ecwid.com/google-advertising">Google Ads</a></li>
@@ -93,7 +93,7 @@ const Header = () => {
                 }
                 {!isDesktop ? 
                     <li>
-                        <span onClick={() => setOpenManage(!openManage)} className={`${openManage ? "open" : ""}`} role="button">Manage</span>
+                        <span onClick={() => setOpenManage(!openManage)} className={`${openManage ? "open" : ""}`} role="button" aria-haspopup="true" aria-expanded={openManage ? "true" : "false"}>Manage</span>
                         <ul className={`dropdown ${openManage ? "show" : ""}`}>
                             <li><a href="https://www.ecwid.com/manage">Manage your store</a></li>
                             <li><a href="https://www.ecwid.com/ecwid-mobile">Mobile</a></li>
@@ -106,7 +106,7 @@ const Header = () => {
                 }
                 {!isDesktop ? 
                     <li>
-                        <span onClick={() => setOpenLearn(!openLearn)} className={`${openLearn ? "open" : ""}`} role="button">Learn</span>
+                        <span onClick={() => setOpenLearn(!openLearn)} className={`${openLearn ? "open" : ""}`} role="button" aria-haspopup="true" aria-expanded={openLearn ? "true" : "false"}>Learn</span>
                         <ul className={`dropdown ${openLearn ? "show" : ""}`}>
                             <li><a href="https://www.ecwid.com/blog">Learn</a></li>
                             <li><a href="https://www.ecwid.com/watchdemo">Demo</a></li>
@@ -124,7 +124,7 @@ const Header = () => {
                 }
                 {!isDesktop ? 
                     <li>
-                        <span onClick={() => setOpenPartners(!openPartners)} className={`${openPartners ? "open" : ""}`} role="button">Partners</span>
+                        <span onClick={() => setOpenPartners(!openPartners)} className={`${openPartners ? "open" : ""}`} role="button" aria-haspopup="true" aria-expanded={openPartners ? "true" : "false"}>Partners</span>
                         <ul className={`dropdown ${openPartners ? "show" : ""}`}>
                             <li><a href="https://www.ecwid.com/partners">Partners <WindowIcon className="window--icon"/></a></li>
                             <li><a href="https://www.ecwid.com/partners/reseller">Resell <WindowIcon className="window--icon"/></a></li>
