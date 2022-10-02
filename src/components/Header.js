@@ -50,7 +50,7 @@ const Header = () => {
             <button className="mobile--navigation--button" aria-label={!openMenu ? "Open menu" : "Close menu"} aria-expanded={!openMenu ? "false" : "true"} aria-haspopup="true" onClick={() => setOpenMenu(!openMenu)}>
                 <div className={`button--inner--div ${openMenu ? "open" : ""}`}></div>
             </button>
-            <nav className="header--nav">
+            <nav className="header--nav" aria-label="Header">
                 {isTablet && !isDesktop ? 
                 <ul role="menubar" className="nav768-1280--ul">
                     <li role="none"><a role="menuitem" href="https://www.ecwid.com/sell">Sell</a></li>

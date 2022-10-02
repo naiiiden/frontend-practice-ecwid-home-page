@@ -30,7 +30,7 @@ const Footer = () => {
             <footer>
                 <div className="logo--nav--container">
                     <a href="https://www.ecwid.com/" aria-label="Go to our homepage" className="footer--logo--link"><img src={footer_logo} alt="Ecwid's logo" className="footer--logo"/></a>
-                    <nav className="footer--nav">
+                    <nav className="footer--nav" aria-label="Footer">
                         <ul className="footer--nav--ul">
                             <li>
                                 <span role="button" onClick={() => setSellOnline(!sellOnline)}>SELL ONLINE <img src={arrow_right} alt="" className={`dropdown ${sellOnline ? "rotate--img" : ""}`}/></span>
