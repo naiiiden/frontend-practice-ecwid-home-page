@@ -47,7 +47,7 @@ const Header = () => {
 
         <header className="header">
             <a href="https://www.ecwid.com/" className="header--logo--link"><img src={header_logo} alt="Ecwid's logo" className="header--logo"/></a>
-            <button className="mobile--navigation--button" aria-label="toggle navigation" onClick={() => setOpenMenu(!openMenu)}>
+            <button className="mobile--navigation--button" aria-label={!openMenu ? "Open menu" : "Close menu"} aria-expanded={!openMenu ? "false" : "true"} aria-haspopup="true" onClick={() => setOpenMenu(!openMenu)}>
                 <div className={`button--inner--div ${openMenu ? "open" : ""}`}></div>
             </button>
             <nav className="header--nav">
