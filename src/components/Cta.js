@@ -7,7 +7,7 @@ const Cta = () => {
             <article className="cta--container">
                 <img src={circle} alt="" className="shape"/>
                 <img src={triangle} alt="" className="shape"/>
-                <h4 className="cta--heading">Your free online store is just a few clicks away</h4>
+                <h2 className="cta--heading">Your free online store is just a few clicks away</h2>
                 <div className="cta--subcontainer">
                     <a href="https://my.ecwid.com/cp/#register" className="cta--link">Get started for free →</a>
                     <p className="cta--p">No credit card required</p>
