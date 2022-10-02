@@ -26,6 +26,10 @@
   box-sizing: border-box;
 }
 
+p, small {
+  line-height: 1.5;
+}
+
 body {
   width: 100%;
   min-height: 100%;
@@ -916,7 +920,7 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
     margin: unset;
   }
   .content--container .content--testimonial--container {
-    margin-top: unset;
+    margin-top: 1rem;
   }
   .content--container .content--testimonial--container .content--testimonial--desc {
     font-size: 1.125rem;
