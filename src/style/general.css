@@ -156,32 +156,34 @@ header .header--nav .header--nav--ul li {
   padding: 0;
   position: relative;
 }
-header .header--nav .header--nav--ul li span {
-  display: inline-block;
+header .header--nav .header--nav--ul li .header--subbtn {
+  display: flex;
+  align-items: center;
   position: relative;
   font-weight: 600;
   width: 100%;
   padding: 8px 1.25rem;
   transition: 0.2s;
   font-family: gotham-book-web;
+  font-size: inherit;
 }
-header .header--nav .header--nav--ul li span.open {
+header .header--nav .header--nav--ul li .header--subbtn.open {
   background: #f7f7f7;
   color: #666;
   transition: 0.2s;
 }
-header .header--nav .header--nav--ul li span.open::after {
+header .header--nav .header--nav--ul li .header--subbtn.open::after {
   transform: rotate(90deg);
-  top: 0;
+  top: -3px;
   right: 1.35rem;
   transition: 0.2s;
 }
-header .header--nav .header--nav--ul li span::after {
+header .header--nav .header--nav--ul li .header--subbtn::after {
   content: "›";
   position: absolute;
   right: 1.35rem;
   font-size: 26px;
-  top: -3px;
+  top: -5px;
   transition: 0.2s;
 }
 header .header--nav .header--nav--ul li a {
@@ -317,13 +319,13 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   header .header--nav .header--nav--ul {
     width: 350px;
   }
-  header .header--nav .header--nav--ul li span {
+  header .header--nav .header--nav--ul li .header--subbtn {
     padding: 8px 3.5rem;
   }
-  header .header--nav .header--nav--ul li span::after {
+  header .header--nav .header--nav--ul li .header--subbtn::after {
     right: 3.625rem;
   }
-  header .header--nav .header--nav--ul li span.open::after {
+  header .header--nav .header--nav--ul li .header--subbtn.open::after {
     right: 3.625rem;
   }
   header .header--nav .header--nav--ul li.pricing--li {
@@ -359,10 +361,10 @@ header .header--nav .header--nav--ul .dropdown a .window--icon {
   header button {
     cursor: pointer;
   }
-  header .header--nav .header--nav--ul li span {
+  header .header--nav .header--nav--ul li .header--subbtn {
     cursor: pointer;
   }
-  header .header--nav .header--nav--ul li span:hover {
+  header .header--nav .header--nav--ul li .header--subbtn:hover {
     color: #666;
   }
   header .header--nav .header--nav--ul li a {

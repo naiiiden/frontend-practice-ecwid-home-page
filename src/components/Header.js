@@ -61,7 +61,7 @@ const Header = () => {
                 <ul className={`header--nav--ul ${openMenu ? "show" : ""}`} role="menubar">
                 {!isDesktop ? 
                     <li role="none">
-                        <span onClick={() => setOpenSell(!openSell)} className={`${openSell ? "open" : ""}`} role="menuitem" aria-haspopup="true" aria-expanded={openSell ? "true" : "false"}>Sell</span>
+                        <button onClick={() => setOpenSell(!openSell)} className={`${openSell ? "open" : ""} header--subbtn`} role="menuitem" aria-haspopup="true" aria-expanded={openSell ? "true" : "false"}>Sell</button>
                         <ul className={`dropdown ${openSell ? "show" : ""}`} role="menu">
                             <li role="none"><a role="menuitem" href="https://www.ecwid.com/sell">Sell anywhere</a></li>
                             <li role="none"><a role="menuitem" href="https://www.ecwid.com/sell">Website</a></li>
@@ -79,7 +79,7 @@ const Header = () => {
                 }
                 {!isDesktop ? 
                     <li role="none">
-                        <span onClick={() => setOpenMarket(!openMarket)} className={`${openMarket ? "open" : ""}`} role="menuitem" aria-haspopup="true" aria-expanded={openMarket ? "true" : "false"}>Market</span>
+                        <button onClick={() => setOpenMarket(!openMarket)} className={`${openMarket ? "open" : ""} header--subbtn`} role="menuitem" aria-haspopup="true" aria-expanded={openMarket ? "true" : "false"}>Market</button>
                         <ul className={`dropdown ${openMarket ? "show" : ""}`} role="menu">
                             <li role="none"><a role="menuitem" href="https://www.ecwid.com/promote">Market your business</a></li>
                             <li role="none"><a role="menuitem" href="https://www.ecwid.com/google-advertising">Google Ads</a></li>
@@ -92,7 +92,7 @@ const Header = () => {
                 }
                 {!isDesktop ? 
                     <li role="none">
-                        <span onClick={() => setOpenManage(!openManage)} className={`${openManage ? "open" : ""}`} role="menuitem" aria-haspopup="true" aria-expanded={openManage ? "true" : "false"}>Manage</span>
+                        <button onClick={() => setOpenManage(!openManage)} className={`${openManage ? "open" : ""} header--subbtn`} role="menuitem" aria-haspopup="true" aria-expanded={openManage ? "true" : "false"}>Manage</button>
                         <ul className={`dropdown ${openManage ? "show" : ""}`} role="menu">
                             <li role="none"><a role="menuitem" href="https://www.ecwid.com/manage">Manage your store</a></li>
                             <li role="none"><a role="menuitem" href="https://www.ecwid.com/ecwid-mobile">Mobile</a></li>
@@ -105,7 +105,7 @@ const Header = () => {
                 }
                 {!isDesktop ? 
                     <li role="none">
-                        <span onClick={() => setOpenLearn(!openLearn)} className={`${openLearn ? "open" : ""}`} role="menuitem" aria-haspopup="true" aria-expanded={openLearn ? "true" : "false"}>Learn</span>
+                        <button onClick={() => setOpenLearn(!openLearn)} className={`${openLearn ? "open" : ""} header--subbtn`} role="menuitem" aria-haspopup="true" aria-expanded={openLearn ? "true" : "false"}>Learn</button>
                         <ul className={`dropdown ${openLearn ? "show" : ""}`} role="menu">
                             <li role="none"><a role="menuitem" href="https://www.ecwid.com/blog">Learn</a></li>
                             <li role="none"><a role="menuitem" href="https://www.ecwid.com/watchdemo">Demo</a></li>
@@ -123,7 +123,7 @@ const Header = () => {
                 }
                 {!isDesktop ? 
                     <li role="none">
-                        <span onClick={() => setOpenPartners(!openPartners)} className={`${openPartners ? "open" : ""}`} role="menuitem" aria-haspopup="true" aria-expanded={openPartners ? "true" : "false"}>Partners</span>
+                        <button onClick={() => setOpenPartners(!openPartners)} className={`${openPartners ? "open" : ""} header--subbtn`} role="menuitem" aria-haspopup="true" aria-expanded={openPartners ? "true" : "false"}>Partners</button>
                         <ul className={`dropdown ${openPartners ? "show" : ""}`} role="menu">
                             <li role="none"><a role="menuitem" href="https://www.ecwid.com/partners">Partners <WindowIcon className="window--icon"/></a></li>
                             <li role="none"><a role="menuitem" href="https://www.ecwid.com/partners/reseller">Resell <WindowIcon className="window--icon"/></a></li>
