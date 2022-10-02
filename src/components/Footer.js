@@ -131,7 +131,7 @@ const Footer = () => {
                         </ul>
                         <div className="search--socials--container">
                             <form>
-                                <input type="text" placeholder="Search" title="Search"/>
+                                <input type="text" placeholder="Search" title="Search" aria-label="Search"/>
                                 <button className="search--button" type="submit" aria-label="Search">
                                     <img src={search} alt=""/>
                                 </button>
