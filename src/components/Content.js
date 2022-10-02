@@ -1,11 +1,11 @@
-const Content = ({ hText, mainDesc, href, imgOrText, f1Src, f1hText, f1Desc, f2Src, f2hText, f2Desc, tAvatar, tName, tDesc, tReviewer, tStars, cIllustration }) => {
+const Content = ({ hText, mainDesc, href, ariaLabel, imgOrText, f1Src, f1hText, f1Desc, f2Src, f2hText, f2Desc, tAvatar, tName, tDesc, tReviewer, tStars, cIllustration }) => {
     return (
         <section className="content--container">
             <div className="text--illustration--container">
                 <div className="content--text--container">
                     <h2 className="content--heading">{hText}</h2>
                     <p className="content--description">{mainDesc}</p>
-                    <a href={href} className="content--link">Learn more →</a>
+                    <a href={href} className="content--link" aria-label={ariaLabel}>Learn more →</a>
                     <div className="content--features--container">
                         <div className="content--feature">
                             {imgOrText ? <img src={f1Src} alt="" className="content--feature--img"/> : <h3 className="content--feature--heading">{f1hText}</h3>}
