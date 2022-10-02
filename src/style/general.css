@@ -1363,7 +1363,7 @@ footer .footer--nav--ul li button, footer .footer--nav--ul li span {
   font-weight: 500;
   background: none;
   border: none;
-  font-size: inherit;
+  text-align: start;
 }
 footer .footer--nav--ul li button img, footer .footer--nav--ul li span img {
   transition: 0.2s;

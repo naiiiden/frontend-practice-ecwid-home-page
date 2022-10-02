@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import footer_logo from "../images/logo/logo-dark.svg";
 import arrow_right from "../images/icons/arrow_right.svg";
 import apple_store from "../images/badges/black-app-store.svg";
@@ -23,6 +23,15 @@ const Footer = () => {
     const [resources, setResources] = useState(false);
     const [blog, setBlog] = useState(false);
     const [openGlobal, setOpenGlobal] = useState(false);
+    const [isTablet, setIsTablet] = useState(window.innerWidth >= 768);
+    // const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1280);
+
+    const updateMediaTablet = () => setIsTablet(window.innerWidth >= 768);
+    
+    useEffect(() => {
+        window.addEventListener("resize", updateMediaTablet);
+        return () => window.removeEventListener("resize", updateMediaTablet);
+    });
 
     return (
         <>
