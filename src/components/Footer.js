@@ -138,17 +138,17 @@ const Footer = () => {
                             </form>
                             <div className="socials--download--container">
                                 <ul className="socials--ul">
-                                    <li><a href="https://www.ecwid.com/blog" aria-label="Read our blog"><img src={blogpost} alt="Read our blog"/></a></li>
-                                    <li><a href="https://www.ecwid.com/podcasts" aria-label="Listen to our podcast"><img src={podcast} alt="Listen to our podcast"/></a></li>
-                                    <li><a href="https://www.pinterest.ru/ecwid" aria-label="Visit our Pinterest page"><img src={pinterest} alt="Visit our Pinterest page"/></a></li>
-                                    <li><a href="https://www.facebook.com/ecwid" aria-label="Visit our Facebook page"><img src={facebook} alt="Visit our Facebook page"/></a></li>
-                                    <li><a href="https://twitter.com/ecwid" aria-label="Visit our Twitter profile"><img src={twitter} alt="Visit our Twitter profile"/></a></li>
-                                    <li><a href="https://www.instagram.com/ecwid/" aria-label="Visit our Instagram profile"><img src={instagram} alt="Visit our Instagram profile"/></a></li>
-                                    <li><a href="https://www.youtube.com/user/EcwidTeam" aria-label="Visit our Youtube channel"><img src={youtube} alt="Visit our Youtube channel"/></a></li>
+                                    <li><a href="https://www.ecwid.com/blog"><img src={blogpost} alt="Read our blog"/></a></li>
+                                    <li><a href="https://www.ecwid.com/podcasts"><img src={podcast} alt="Listen to our podcast"/></a></li>
+                                    <li><a href="https://www.pinterest.ru/ecwid"><img src={pinterest} alt="Visit our Pinterest page"/></a></li>
+                                    <li><a href="https://www.facebook.com/ecwid"><img src={facebook} alt="Visit our Facebook page"/></a></li>
+                                    <li><a href="https://twitter.com/ecwid"><img src={twitter} alt="Visit our Twitter profile"/></a></li>
+                                    <li><a href="https://www.instagram.com/ecwid/"><img src={instagram} alt="Visit our Instagram profile"/></a></li>
+                                    <li><a href="https://www.youtube.com/user/EcwidTeam"><img src={youtube} alt="Visit our Youtube channel"/></a></li>
                                 </ul>
                                 <div className="download--container">
-                                    <a href="https://itunes.apple.com/us/app/ecwid/id626731456?mt=8" aria-label="Download our app from Apple App Store"><img src={apple_store} alt="Download our app from Apple App Store"/></a>
-                                    <a href="https://play.google.com/store/apps/details?id=com.ecwid.android" aria-label="Download our app from Google Play"><img src={google_store} alt="Download our app from Google Play"/></a>
+                                    <a href="https://itunes.apple.com/us/app/ecwid/id626731456?mt=8"><img src={apple_store} alt="Download our app from Apple App Store"/></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.ecwid.android"><img src={google_store} alt="Download our app from Google Play"/></a>
                                 </div>
                             </div>
                         </div>
